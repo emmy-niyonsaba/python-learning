@@ -10,3 +10,12 @@ print("2D array:",secondArray)
 
 print("The size of the first array is :",firstArray.size)
 print("The size of the second array is :",secondArray.size)
+
+"""
+The are many method we foun in the numpy lib 
+Those method inlude :
+    1. T(transpostion )
+    2. reshape
+    3. range( this receive the number of rows and number of element for each row)
+    4. 
+"""
