@@ -17,5 +17,6 @@ Those method inlude :
     1. T(transpostion )
     2. reshape
     3. range( this receive the number of rows and number of element for each row)
-    4. 
+    4. You can also find sum,product of the numpy arrays 
+    5. 
 """

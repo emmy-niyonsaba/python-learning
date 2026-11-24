@@ -1,0 +1,400 @@
+
+================================================================================
+QUESTION 1: DATASET INFORMATION
+================================================================================
+Dataset : Titanic passenger data (real passenger records, RMS Titanic, 1912)
+Source  : Kaggle 'Titanic - Machine Learning from Disaster'; downloaded as CSV from
+          the seaborn-data repository (github.com/mwaskom/seaborn-data)
+Purpose : Study which passenger characteristics were associated with survival.
+Size    : 891 rows x 15 columns (numerical + categorical data)
+
+Meaning of key columns:
+  survived    - 1 = passenger survived, 0 = did not survive
+  pclass      - ticket class (1 = First, 2 = Second, 3 = Third)
+  sex         - passenger gender (male / female)
+  age         - age in years (fractions for infants)
+  sibsp       - number of siblings / spouses aboard
+  parch       - number of parents / children aboard
+  fare        - ticket price paid (pounds sterling)
+  embark_town - port of embarkation (Southampton, Cherbourg, Queenstown)
+  deck        - cabin deck letter (A-G)
+
+
+================================================================================
+QUESTION 2: IMPORTATION AND EXPLORATION
+================================================================================
+First 10 records:
+   survived  pclass     sex   age  sibsp  parch     fare embarked   class    who  adult_male deck  embark_town alive  alone
+0         0       3    male  22.0      1      0   7.2500        S   Third    man        True  NaN  Southampton    no  False
+1         1       1  female  38.0      1      0  71.2833        C   First  woman       False    C    Cherbourg   yes  False
+2         1       3  female  26.0      0      0   7.9250        S   Third  woman       False  NaN  Southampton   yes   True
+3         1       1  female  35.0      1      0  53.1000        S   First  woman       False    C  Southampton   yes  False
+4         0       3    male  35.0      0      0   8.0500        S   Third    man        True  NaN  Southampton    no   True
+5         0       3    male   NaN      0      0   8.4583        Q   Third    man        True  NaN   Queenstown    no   True
+6         0       1    male  54.0      0      0  51.8625        S   First    man        True    E  Southampton    no   True
+7         0       3    male   2.0      3      1  21.0750        S   Third  child       False  NaN  Southampton    no  False
+8         1       3  female  27.0      0      2  11.1333        S   Third  woman       False  NaN  Southampton   yes  False
+9         1       2  female  14.0      1      0  30.0708        C  Second  child       False  NaN    Cherbourg   yes  False
+
+Last 10 records:
+     survived  pclass     sex   age  sibsp  parch     fare embarked   class    who  adult_male deck  embark_town alive  alone
+881         0       3    male  33.0      0      0   7.8958        S   Third    man        True  NaN  Southampton    no   True
+882         0       3  female  22.0      0      0  10.5167        S   Third  woman       False  NaN  Southampton    no   True
+883         0       2    male  28.0      0      0  10.5000        S  Second    man        True  NaN  Southampton    no   True
+884         0       3    male  25.0      0      0   7.0500        S   Third    man        True  NaN  Southampton    no   True
+885         0       3  female  39.0      0      5  29.1250        Q   Third  woman       False  NaN   Queenstown    no  False
+886         0       2    male  27.0      0      0  13.0000        S  Second    man        True  NaN  Southampton    no   True
+887         1       1  female  19.0      0      0  30.0000        S   First  woman       False    B  Southampton   yes   True
+888         0       3  female   NaN      1      2  23.4500        S   Third  woman       False  NaN  Southampton    no  False
+889         1       1    male  26.0      0      0  30.0000        C   First    man        True    C    Cherbourg   yes   True
+890         0       3    male  32.0      0      0   7.7500        Q   Third    man        True  NaN   Queenstown    no   True
+
+Number of rows   : 891
+Number of columns: 15
+
+Column names: ['survived', 'pclass', 'sex', 'age', 'sibsp', 'parch', 'fare', 'embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town', 'alive', 'alone']
+
+Data types:
+survived         int64
+pclass           int64
+sex                str
+age            float64
+sibsp            int64
+parch            int64
+fare           float64
+embarked           str
+class              str
+who                str
+adult_male        bool
+deck               str
+embark_town        str
+alive              str
+alone             bool
+dtype: object
+
+df.info():
+<class 'pandas.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 15 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   survived     891 non-null    int64  
+ 1   pclass       891 non-null    int64  
+ 2   sex          891 non-null    str    
+ 3   age          714 non-null    float64
+ 4   sibsp        891 non-null    int64  
+ 5   parch        891 non-null    int64  
+ 6   fare         891 non-null    float64
+ 7   embarked     889 non-null    str    
+ 8   class        891 non-null    str    
+ 9   who          891 non-null    str    
+ 10  adult_male   891 non-null    bool   
+ 11  deck         203 non-null    str    
+ 12  embark_town  889 non-null    str    
+ 13  alive        891 non-null    str    
+ 14  alone        891 non-null    bool   
+dtypes: bool(2), float64(2), int64(4), str(7)
+memory usage: 92.4 KB
+
+df.describe() (numerical columns):
+         survived      pclass         age       sibsp       parch        fare
+count  891.000000  891.000000  714.000000  891.000000  891.000000  891.000000
+mean     0.383838    2.308642   29.699118    0.523008    0.381594   32.204208
+std      0.486592    0.836071   14.526497    1.102743    0.806057   49.693429
+min      0.000000    1.000000    0.420000    0.000000    0.000000    0.000000
+25%      0.000000    2.000000   20.125000    0.000000    0.000000    7.910400
+50%      0.000000    3.000000   28.000000    0.000000    0.000000   14.454200
+75%      1.000000    3.000000   38.000000    1.000000    0.000000   31.000000
+max      1.000000    3.000000   80.000000    8.000000    6.000000  512.329200
+
+df.describe(include='object') (categorical columns):
+         sex embarked  class  who deck  embark_town alive
+count    891      889    891  891  203          889   891
+unique     2        3      3    3    7            3     2
+top     male        S  Third  man    C  Southampton    no
+freq     577      644    491  537   59          644   549
+
+================================================================================
+QUESTION 3: SELECTING AND FILTERING RECORDS
+================================================================================
+3a. Selected columns: sex, age, survived (first 5 rows)
+      sex   age  survived
+0    male  22.0         0
+1  female  38.0         1
+2  female  26.0         1
+3  female  35.0         1
+4    male  35.0         0
+Why: these are the core variables for studying who survived.
+
+3b. Passengers older than 60: 22 records
+      sex   age  pclass  survived
+33   male  66.0       2         0
+54   male  65.0       1         0
+96   male  71.0       1         0
+116  male  70.5       3         0
+170  male  61.0       1         0
+Why: shows how few elderly passengers there were and lets us inspect their survival.
+
+3c. Female passengers: 314 records
+Why: lets us compare the group with the male passengers on survival.
+
+3d-i. First-class AND female: 94 records, survival rate = 96.81%
+3d-ii. Age < 12 OR age > 60: 90 records, survival rate = 48.89%
+Why: combined conditions isolate specific passenger profiles.
+
+3e. Top 10 passengers by fare paid (descending):
+     pclass     sex   age      fare  survived
+737       1    male  35.0  512.3292         1
+679       1    male  36.0  512.3292         1
+258       1  female  35.0  512.3292         1
+438       1    male  64.0  263.0000         0
+88        1  female  23.0  263.0000         1
+27        1    male  19.0  263.0000         0
+341       1  female  24.0  263.0000         1
+311       1  female  18.0  262.3750         1
+742       1  female  21.0  262.3750         1
+118       1    male  24.0  247.5208         0
+Why: sorting by fare shows the wealthiest passengers and their outcomes.
+
+================================================================================
+QUESTION 4: MISSING VALUES
+================================================================================
+4a. Missing values per column:
+survived         0
+pclass           0
+sex              0
+age            177
+sibsp            0
+parch            0
+fare             0
+embarked         2
+class            0
+who              0
+adult_male       0
+deck           688
+embark_town      2
+alive            0
+alone            0
+dtype: int64
+
+4b. Missing percentage per column:
+survived        0.00
+pclass          0.00
+sex             0.00
+age            19.87
+sibsp           0.00
+parch           0.00
+fare            0.00
+embarked        0.22
+class           0.00
+who             0.00
+adult_male      0.00
+deck           77.22
+embark_town     0.22
+alive           0.00
+alone           0.00
+dtype: float64
+
+4c. Handling missing values
+Method 1: dropped column 'deck' (77.2% missing).
+Method 2: filled 177 missing ages with the median age of the same class and sex.
+Method 3: filled 2 missing embarkation values with the mode ('Southampton').
+
+Missing values after handling:
+survived       0
+pclass         0
+sex            0
+age            0
+sibsp          0
+parch          0
+fare           0
+embarked       0
+class          0
+who            0
+adult_male     0
+embark_town    0
+alive          0
+alone          0
+age_imputed    0
+dtype: int64
+
+4d. Why these methods?
+  - Dropping 'deck': with 77% missing, any imputation would be mostly guesswork.
+  - Median for 'age': the median is not distorted by very old/young outliers, and
+    grouping by class and sex gives a more realistic estimate than one global value.
+    Deleting the 177 rows (19.9%) would have thrown away too much useful data.
+  - Mode for embarkation: categorical data has no median/mean; the mode is the most
+    probable value and only 0.2% of rows are affected.
+
+================================================================================
+QUESTION 5: DUPLICATE AND INCORRECT RECORDS
+================================================================================
+5a. Duplicate records found: 111
+     survived  pclass   sex   age  sibsp  parch     fare embarked   class  who  adult_male  embark_town alive  alone  age_imputed
+633         0       1  male  40.0      0      0   0.0000        S   First  man        True  Southampton    no   True         True
+815         0       1  male  40.0      0      0   0.0000        S   First  man        True  Southampton    no   True         True
+64          0       1  male  40.0      0      0  27.7208        C   First  man        True    Cherbourg    no   True         True
+295         0       1  male  40.0      0      0  27.7208        C   First  man        True    Cherbourg    no   True         True
+252         0       1  male  62.0      0      0  26.5500        S   First  man        True  Southampton    no   True        False
+555         0       1  male  62.0      0      0  26.5500        S   First  man        True  Southampton    no   True        False
+144         0       2  male  18.0      0      0  11.5000        S  Second  man        True  Southampton    no   True        False
+757         0       2  male  18.0      0      0  11.5000        S  Second  man        True  Southampton    no   True        False
+658         0       2  male  23.0      0      0  13.0000        S  Second  man        True  Southampton    no   True        False
+733         0       2  male  23.0      0      0  13.0000        S  Second  man        True  Southampton    no   True        False
+
+5b. Removed 111 duplicates. Rows: 891 -> 780
+Note: the dataset has no passenger-ID column, so rows identical in every field are treated as duplicate entries.
+
+5c. Checking for invalid or inconsistent values
+  - Records with fare = 0: 9
+  - Negative ages: 0, ages above 100: 0
+  - Negative sibsp/parch: 0
+  - 'survived' vs 'alive' mismatches: 0
+  - 'pclass' vs 'class' mismatches: 0
+  - 'alone' flag vs sibsp+parch mismatches: 0
+  - Inconsistent category spelling:
+      sex: ['female', 'male']
+      embark_town: ['Cherbourg', 'Queenstown', 'Southampton']
+      class: ['First', 'Second', 'Third']
+      who: ['child', 'man', 'woman']
+      alive: ['no', 'yes']
+
+5d. Corrections
+  - Replaced 9 zero fares with the median fare of the same class.
+  - Dropped redundant columns 'alive', 'class', 'embarked' (verified identical to 'survived', 'pclass', 'embark_town').
+  - No negative/impossible ages or counts were found, so no records were removed.
+
+================================================================================
+QUESTION 6: DATA TRANSFORMATION
+================================================================================
+6a. Converted: survived/sibsp/parch -> int8; pclass -> ordered category.
+6b. Text columns stripped of spaces, converted to Title Case and set to category type: ['sex', 'who', 'embark_town']
+6c. Renamed: pclass, sibsp, parch, embark_town, fare, who, alone.
+6d. Created: family_size, age_group, fare_per_person_gbp, survival_status.
+
+Cleaned dataset preview:
+   survived passenger_class     sex   age  siblings_spouses_aboard  parents_children_aboard  ticket_fare_gbp passenger_type  adult_male port_of_embarkation  travelling_alone  age_imputed  \
+0         0               3    Male  22.0                        1                        0           7.2500            Man        True         Southampton             False        False   
+1         1               1  Female  38.0                        1                        0          71.2833          Woman       False           Cherbourg             False        False   
+2         1               3  Female  26.0                        0                        0           7.9250          Woman       False         Southampton              True        False   
+3         1               1  Female  35.0                        1                        0          53.1000          Woman       False         Southampton             False        False   
+4         0               3    Male  35.0                        0                        0           8.0500            Man        True         Southampton              True        False   
+5         0               3    Male  25.0                        0                        0           8.4583            Man        True          Queenstown              True         True   
+6         0               1    Male  54.0                        0                        0          51.8625            Man        True         Southampton              True        False   
+7         0               3    Male   2.0                        3                        1          21.0750          Child       False         Southampton             False        False   
+8         1               3  Female  27.0                        0                        2          11.1333          Woman       False         Southampton             False        False   
+9         1               2  Female  14.0                        1                        0          30.0708          Child       False           Cherbourg             False        False   
+
+   family_size age_group  fare_per_person_gbp  survival_status  
+0            2     Adult                 3.62  Did Not Survive  
+1            2     Adult                35.64         Survived  
+2            1     Adult                 7.92         Survived  
+3            2     Adult                26.55         Survived  
+4            1     Adult                 8.05  Did Not Survive  
+5            1     Adult                 8.46  Did Not Survive  
+6            1     Adult                51.86  Did Not Survive  
+7            5     Child                 4.22  Did Not Survive  
+8            3     Adult                 3.71         Survived  
+9            2  Teenager                15.04         Survived  
+
+Final data types:
+survived                       int8
+passenger_class            category
+sex                        category
+age                         float64
+siblings_spouses_aboard        int8
+parents_children_aboard        int8
+ticket_fare_gbp             float64
+passenger_type             category
+adult_male                     bool
+port_of_embarkation        category
+travelling_alone               bool
+age_imputed                    bool
+family_size                    int8
+age_group                  category
+fare_per_person_gbp         float64
+survival_status                 str
+dtype: object
+
+Final shape: (780, 16)
+
+================================================================================
+QUESTION 7: STATISTICAL CALCULATIONS
+================================================================================
+7a-c. Mean, median, min, max, std:
+                  Mean  Median  Minimum  Maximum  Std Deviation
+age              29.57    28.0     0.42    80.00          13.94
+ticket_fare_gbp  35.22    16.1     4.01   512.33          52.20
+family_size       1.94     1.0     1.00    11.00           1.52
+
+7d. Highest average fare: class 1 (GBP 86.34); lowest: class 3 (GBP 13.75).
+    Highest survival rate: class 1 (63.7%); lowest: class 3 (25.7%).
+    Interpretation: first-class passengers paid far more and also survived most often, so ticket class is strongly linked to survival.
+
+================================================================================
+QUESTION 8: GROUPING AND SUMMARIZING DATA
+================================================================================
+8a. Passengers per sex:
+sex
+Female    292
+Male      488
+Name: Passengers, dtype: int64
+
+Passengers per class:
+passenger_class
+1    212
+2    164
+3    404
+Name: Passengers, dtype: int64
+
+8b. Mean age by passenger class:
+passenger_class
+1    38.21
+2    29.84
+3    24.92
+Name: age, dtype: float64
+
+Mean survival rate by sex:
+sex
+Female    0.7397
+Male      0.2172
+Name: survived, dtype: float64
+
+8c. Summary by passenger class (groupby + agg):
+                 passengers  survivors  survival_rate  mean_age  median_age  mean_fare  max_fare  std_fare
+passenger_class                                                                                           
+1                       212        135          0.637    38.210        38.0     86.342   512.329    77.873
+2                       164         83          0.506    29.840        29.5     22.004    73.500    13.391
+3                       404        104          0.257    24.924        25.0     13.751    69.550    10.603
+
+8d. Ports sorted by number of passengers:
+                     passengers  survival_rate  mean_fare  median_age
+port_of_embarkation                                                  
+Southampton                 567          0.374     29.527        28.0
+Cherbourg                   155          0.581     63.710        29.0
+Queenstown                   58          0.345     14.681        25.0
+Largest group: Southampton (567 passengers)
+Highest-performing class (survival): class 1 (63.7%)
+
+8e. Findings
+  1. Gender: females survived at 74.0% versus 21.7% for males.
+  2. Class: first class survival was 63.7% versus 25.7% in third class.
+  3. Age: children (<=12) survived at 57.4% versus 39.7% for adults.
+
+================================================================================
+QUESTION 9: EXPORTING PROCESSED DATA
+================================================================================
+9a. Saved cleaned_dataset.csv
+9b. Saved summary_report.xlsx (6 sheets)
+9c. cleaned_dataset.csv re-opened: 780 rows x 16 columns; missing values = 0
+    summary_report.xlsx -> sheet 'Overall_Statistics': 3 rows x 6 columns
+    summary_report.xlsx -> sheet 'By_Class': 3 rows x 9 columns
+    summary_report.xlsx -> sheet 'By_Sex': 2 rows x 6 columns
+    summary_report.xlsx -> sheet 'By_Port': 3 rows x 5 columns
+    summary_report.xlsx -> sheet 'By_AgeGroup': 4 rows x 4 columns
+    summary_report.xlsx -> sheet 'Survival_Class_x_Sex': 3 rows x 3 columns
+Saved analysis_charts.png
+
+================================================================================
+PROGRAM COMPLETED SUCCESSFULLY
+================================================================================

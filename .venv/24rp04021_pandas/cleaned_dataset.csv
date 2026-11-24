@@ -1,0 +1,781 @@
+survived,passenger_class,sex,age,siblings_spouses_aboard,parents_children_aboard,ticket_fare_gbp,passenger_type,adult_male,port_of_embarkation,travelling_alone,age_imputed,family_size,age_group,fare_per_person_gbp,survival_status
+0,3,Male,22.0,1,0,7.25,Man,True,Southampton,False,False,2,Adult,3.62,Did Not Survive
+1,1,Female,38.0,1,0,71.2833,Woman,False,Cherbourg,False,False,2,Adult,35.64,Survived
+1,3,Female,26.0,0,0,7.925,Woman,False,Southampton,True,False,1,Adult,7.92,Survived
+1,1,Female,35.0,1,0,53.1,Woman,False,Southampton,False,False,2,Adult,26.55,Survived
+0,3,Male,35.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Male,25.0,0,0,8.4583,Man,True,Queenstown,True,True,1,Adult,8.46,Did Not Survive
+0,1,Male,54.0,0,0,51.8625,Man,True,Southampton,True,False,1,Adult,51.86,Did Not Survive
+0,3,Male,2.0,3,1,21.075,Child,False,Southampton,False,False,5,Child,4.22,Did Not Survive
+1,3,Female,27.0,0,2,11.1333,Woman,False,Southampton,False,False,3,Adult,3.71,Survived
+1,2,Female,14.0,1,0,30.0708,Child,False,Cherbourg,False,False,2,Teenager,15.04,Survived
+1,3,Female,4.0,1,1,16.7,Child,False,Southampton,False,False,3,Child,5.57,Survived
+1,1,Female,58.0,0,0,26.55,Woman,False,Southampton,True,False,1,Adult,26.55,Survived
+0,3,Male,20.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Male,39.0,1,5,31.275,Man,True,Southampton,False,False,7,Adult,4.47,Did Not Survive
+0,3,Female,14.0,0,0,7.8542,Child,False,Southampton,True,False,1,Teenager,7.85,Did Not Survive
+1,2,Female,55.0,0,0,16.0,Woman,False,Southampton,True,False,1,Adult,16.0,Survived
+0,3,Male,2.0,4,1,29.125,Child,False,Queenstown,False,False,6,Child,4.85,Did Not Survive
+1,2,Male,30.0,0,0,13.0,Man,True,Southampton,True,True,1,Adult,13.0,Survived
+0,3,Female,31.0,1,0,18.0,Woman,False,Southampton,False,False,2,Adult,9.0,Did Not Survive
+1,3,Female,21.5,0,0,7.225,Woman,False,Cherbourg,True,True,1,Adult,7.22,Survived
+0,2,Male,35.0,0,0,26.0,Man,True,Southampton,True,False,1,Adult,26.0,Did Not Survive
+1,2,Male,34.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Survived
+1,3,Female,15.0,0,0,8.0292,Child,False,Queenstown,True,False,1,Teenager,8.03,Survived
+1,1,Male,28.0,0,0,35.5,Man,True,Southampton,True,False,1,Adult,35.5,Survived
+0,3,Female,8.0,3,1,21.075,Child,False,Southampton,False,False,5,Child,4.22,Did Not Survive
+1,3,Female,38.0,1,5,31.3875,Woman,False,Southampton,False,False,7,Adult,4.48,Survived
+0,3,Male,25.0,0,0,7.225,Man,True,Cherbourg,True,True,1,Adult,7.22,Did Not Survive
+0,1,Male,19.0,3,2,263.0,Man,True,Southampton,False,False,6,Teenager,43.83,Did Not Survive
+1,3,Female,21.5,0,0,7.8792,Woman,False,Queenstown,True,True,1,Adult,7.88,Survived
+0,3,Male,25.0,0,0,7.8958,Man,True,Southampton,True,True,1,Adult,7.9,Did Not Survive
+0,1,Male,40.0,0,0,27.7208,Man,True,Cherbourg,True,False,1,Adult,27.72,Did Not Survive
+1,1,Female,35.0,1,0,146.5208,Woman,False,Cherbourg,False,True,2,Adult,73.26,Survived
+1,3,Female,21.5,0,0,7.75,Woman,False,Queenstown,True,True,1,Adult,7.75,Survived
+0,2,Male,66.0,0,0,10.5,Man,True,Southampton,True,False,1,Senior,10.5,Did Not Survive
+0,1,Male,28.0,1,0,82.1708,Man,True,Cherbourg,False,False,2,Adult,41.09,Did Not Survive
+0,1,Male,42.0,1,0,52.0,Man,True,Southampton,False,False,2,Adult,26.0,Did Not Survive
+1,3,Male,25.0,0,0,7.2292,Man,True,Cherbourg,True,True,1,Adult,7.23,Survived
+0,3,Male,21.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Female,18.0,2,0,18.0,Woman,False,Southampton,False,False,3,Teenager,6.0,Did Not Survive
+1,3,Female,14.0,1,0,11.2417,Child,False,Cherbourg,False,False,2,Teenager,5.62,Survived
+0,3,Female,40.0,1,0,9.475,Woman,False,Southampton,False,False,2,Adult,4.74,Did Not Survive
+0,2,Female,27.0,1,0,21.0,Woman,False,Southampton,False,False,2,Adult,10.5,Did Not Survive
+0,3,Male,25.0,0,0,7.8958,Man,True,Cherbourg,True,True,1,Adult,7.9,Did Not Survive
+1,2,Female,3.0,1,2,41.5792,Child,False,Cherbourg,False,False,4,Child,10.39,Survived
+1,3,Female,19.0,0,0,7.8792,Woman,False,Queenstown,True,False,1,Teenager,7.88,Survived
+0,3,Male,25.0,0,0,8.05,Man,True,Southampton,True,True,1,Adult,8.05,Did Not Survive
+0,3,Male,25.0,1,0,15.5,Man,True,Queenstown,False,True,2,Adult,7.75,Did Not Survive
+0,3,Male,25.0,2,0,21.6792,Man,True,Cherbourg,False,True,3,Adult,7.23,Did Not Survive
+0,3,Female,18.0,1,0,17.8,Woman,False,Southampton,False,False,2,Teenager,8.9,Did Not Survive
+0,3,Male,7.0,4,1,39.6875,Child,False,Southampton,False,False,6,Child,6.61,Did Not Survive
+0,3,Male,21.0,0,0,7.8,Man,True,Southampton,True,False,1,Adult,7.8,Did Not Survive
+1,1,Female,49.0,1,0,76.7292,Woman,False,Cherbourg,False,False,2,Adult,38.36,Survived
+1,2,Female,29.0,1,0,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+0,1,Male,65.0,0,1,61.9792,Man,True,Cherbourg,False,False,2,Senior,30.99,Did Not Survive
+1,1,Male,40.0,0,0,35.5,Man,True,Southampton,True,True,1,Adult,35.5,Survived
+1,2,Female,21.0,0,0,10.5,Woman,False,Southampton,True,False,1,Adult,10.5,Survived
+0,3,Male,28.5,0,0,7.2292,Man,True,Cherbourg,True,False,1,Adult,7.23,Did Not Survive
+1,2,Female,5.0,1,2,27.75,Child,False,Southampton,False,False,4,Child,6.94,Survived
+0,3,Male,11.0,5,2,46.9,Child,False,Southampton,False,False,8,Child,5.86,Did Not Survive
+0,3,Male,22.0,0,0,7.2292,Man,True,Cherbourg,True,False,1,Adult,7.23,Did Not Survive
+1,1,Female,38.0,0,0,80.0,Woman,False,Southampton,True,False,1,Adult,80.0,Survived
+0,1,Male,45.0,1,0,83.475,Man,True,Southampton,False,False,2,Adult,41.74,Did Not Survive
+0,3,Male,4.0,3,2,27.9,Child,False,Southampton,False,False,6,Child,4.65,Did Not Survive
+0,1,Male,40.0,0,0,27.7208,Man,True,Cherbourg,True,True,1,Adult,27.72,Did Not Survive
+1,3,Male,25.0,1,1,15.2458,Man,True,Cherbourg,False,True,3,Adult,5.08,Survived
+1,2,Female,29.0,0,0,10.5,Woman,False,Southampton,True,False,1,Adult,10.5,Survived
+0,3,Male,19.0,0,0,8.1583,Man,True,Southampton,True,False,1,Teenager,8.16,Did Not Survive
+1,3,Female,17.0,4,2,7.925,Woman,False,Southampton,False,False,7,Teenager,1.13,Survived
+0,3,Male,26.0,2,0,8.6625,Man,True,Southampton,False,False,3,Adult,2.89,Did Not Survive
+0,2,Male,32.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Female,16.0,5,2,46.9,Woman,False,Southampton,False,False,8,Teenager,5.86,Did Not Survive
+0,2,Male,21.0,0,0,73.5,Man,True,Southampton,True,False,1,Adult,73.5,Did Not Survive
+0,3,Male,26.0,1,0,14.4542,Man,True,Cherbourg,False,False,2,Adult,7.23,Did Not Survive
+1,3,Male,32.0,0,0,56.4958,Man,True,Southampton,True,False,1,Adult,56.5,Survived
+0,3,Male,25.0,0,0,7.65,Man,True,Southampton,True,False,1,Adult,7.65,Did Not Survive
+1,2,Male,0.83,0,2,29.0,Child,False,Southampton,False,False,3,Child,9.67,Survived
+1,3,Female,30.0,0,0,12.475,Woman,False,Southampton,True,False,1,Adult,12.48,Survived
+0,3,Male,22.0,0,0,9.0,Man,True,Southampton,True,False,1,Adult,9.0,Did Not Survive
+1,3,Male,29.0,0,0,9.5,Man,True,Southampton,True,False,1,Adult,9.5,Survived
+1,3,Female,21.5,0,0,7.7875,Woman,False,Queenstown,True,True,1,Adult,7.79,Survived
+0,1,Male,28.0,0,0,47.1,Man,True,Southampton,True,False,1,Adult,47.1,Did Not Survive
+1,2,Female,17.0,0,0,10.5,Woman,False,Southampton,True,False,1,Teenager,10.5,Survived
+1,3,Female,33.0,3,0,15.85,Woman,False,Southampton,False,False,4,Adult,3.96,Survived
+0,3,Male,16.0,1,3,34.375,Man,True,Southampton,False,False,5,Teenager,6.88,Did Not Survive
+1,1,Female,23.0,3,2,263.0,Woman,False,Southampton,False,False,6,Adult,43.83,Survived
+0,3,Male,24.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Male,29.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Male,20.0,0,0,7.8542,Man,True,Southampton,True,False,1,Adult,7.85,Did Not Survive
+0,1,Male,46.0,1,0,61.175,Man,True,Southampton,False,False,2,Adult,30.59,Did Not Survive
+0,3,Male,26.0,1,2,20.575,Man,True,Southampton,False,False,4,Adult,5.14,Did Not Survive
+0,3,Male,59.0,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+0,1,Male,71.0,0,0,34.6542,Man,True,Cherbourg,True,False,1,Senior,34.65,Did Not Survive
+1,1,Male,23.0,0,1,63.3583,Man,True,Cherbourg,False,False,2,Adult,31.68,Survived
+1,2,Female,34.0,0,1,23.0,Woman,False,Southampton,False,False,2,Adult,11.5,Survived
+0,2,Male,34.0,1,0,26.0,Man,True,Southampton,False,False,2,Adult,13.0,Did Not Survive
+0,3,Female,28.0,0,0,7.8958,Woman,False,Southampton,True,False,1,Adult,7.9,Did Not Survive
+0,1,Male,21.0,0,1,77.2875,Man,True,Southampton,False,False,2,Adult,38.64,Did Not Survive
+0,3,Male,33.0,0,0,8.6542,Man,True,Southampton,True,False,1,Adult,8.65,Did Not Survive
+0,3,Male,37.0,2,0,7.925,Man,True,Southampton,False,False,3,Adult,2.64,Did Not Survive
+0,3,Male,28.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,3,Female,21.0,0,0,7.65,Woman,False,Southampton,True,False,1,Adult,7.65,Survived
+1,3,Male,25.0,0,0,7.775,Man,True,Southampton,True,True,1,Adult,7.78,Survived
+0,3,Male,38.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,3,Female,21.5,1,0,24.15,Woman,False,Queenstown,False,True,2,Adult,12.08,Survived
+0,1,Male,47.0,0,0,52.0,Man,True,Southampton,True,False,1,Adult,52.0,Did Not Survive
+0,3,Female,14.5,1,0,14.4542,Child,False,Cherbourg,False,False,2,Teenager,7.23,Did Not Survive
+0,3,Male,22.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Female,20.0,1,0,9.825,Woman,False,Southampton,False,False,2,Adult,4.91,Did Not Survive
+0,3,Female,17.0,0,0,14.4583,Woman,False,Cherbourg,True,False,1,Teenager,14.46,Did Not Survive
+0,3,Male,21.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Did Not Survive
+0,3,Male,70.5,0,0,7.75,Man,True,Queenstown,True,False,1,Senior,7.75,Did Not Survive
+0,2,Male,29.0,1,0,21.0,Man,True,Southampton,False,False,2,Adult,10.5,Did Not Survive
+0,1,Male,24.0,0,1,247.5208,Man,True,Cherbourg,False,False,2,Adult,123.76,Did Not Survive
+0,3,Female,2.0,4,2,31.275,Child,False,Southampton,False,False,7,Child,4.47,Did Not Survive
+0,2,Male,21.0,2,0,73.5,Man,True,Southampton,False,False,3,Adult,24.5,Did Not Survive
+0,2,Male,32.5,1,0,30.0708,Man,True,Cherbourg,False,False,2,Adult,15.04,Did Not Survive
+1,2,Female,32.5,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+0,1,Male,54.0,0,1,77.2875,Man,True,Southampton,False,False,2,Adult,38.64,Did Not Survive
+1,3,Male,12.0,1,0,11.2417,Child,False,Cherbourg,False,False,2,Child,5.62,Survived
+0,3,Male,25.0,0,0,7.75,Man,True,Queenstown,True,True,1,Adult,7.75,Did Not Survive
+1,3,Male,24.0,0,0,7.1417,Man,True,Southampton,True,False,1,Adult,7.14,Survived
+1,3,Female,21.5,1,1,22.3583,Woman,False,Cherbourg,False,True,3,Adult,7.45,Survived
+0,3,Male,45.0,0,0,6.975,Man,True,Southampton,True,False,1,Adult,6.98,Did Not Survive
+0,3,Male,33.0,0,0,7.8958,Man,True,Cherbourg,True,False,1,Adult,7.9,Did Not Survive
+0,3,Male,20.0,0,0,7.05,Man,True,Southampton,True,False,1,Adult,7.05,Did Not Survive
+0,3,Female,47.0,1,0,14.5,Woman,False,Southampton,False,False,2,Adult,7.25,Did Not Survive
+0,2,Male,25.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,2,Male,23.0,0,0,15.0458,Man,True,Cherbourg,True,False,1,Adult,15.05,Did Not Survive
+1,1,Female,19.0,0,2,26.2833,Woman,False,Southampton,False,False,3,Teenager,8.76,Survived
+0,1,Male,37.0,1,0,53.1,Man,True,Southampton,False,False,2,Adult,26.55,Did Not Survive
+0,3,Male,16.0,0,0,9.2167,Man,True,Southampton,True,False,1,Teenager,9.22,Did Not Survive
+0,1,Male,24.0,0,0,79.2,Man,True,Cherbourg,True,False,1,Adult,79.2,Did Not Survive
+0,3,Female,21.5,0,2,15.2458,Woman,False,Cherbourg,False,True,3,Adult,5.08,Did Not Survive
+1,3,Female,22.0,0,0,7.75,Woman,False,Southampton,True,False,1,Adult,7.75,Survived
+1,3,Female,24.0,1,0,15.85,Woman,False,Southampton,False,False,2,Adult,7.92,Survived
+0,3,Male,19.0,0,0,6.75,Man,True,Queenstown,True,False,1,Teenager,6.75,Did Not Survive
+0,2,Male,18.0,0,0,11.5,Man,True,Southampton,True,False,1,Teenager,11.5,Did Not Survive
+0,2,Male,19.0,1,1,36.75,Man,True,Southampton,False,False,3,Teenager,12.25,Did Not Survive
+1,3,Male,27.0,0,0,7.7958,Man,True,Southampton,True,False,1,Adult,7.8,Survived
+0,3,Female,9.0,2,2,34.375,Child,False,Southampton,False,False,5,Child,6.88,Did Not Survive
+0,2,Male,36.5,0,2,26.0,Man,True,Southampton,False,False,3,Adult,8.67,Did Not Survive
+0,2,Male,42.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,2,Male,51.0,0,0,12.525,Man,True,Southampton,True,False,1,Adult,12.52,Did Not Survive
+1,1,Female,22.0,1,0,66.6,Woman,False,Southampton,False,False,2,Adult,33.3,Survived
+0,3,Male,55.5,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Male,40.5,0,2,14.5,Man,True,Southampton,False,False,3,Adult,4.83,Did Not Survive
+0,3,Male,25.0,0,0,7.3125,Man,True,Southampton,True,True,1,Adult,7.31,Did Not Survive
+0,1,Male,51.0,0,1,61.3792,Man,True,Cherbourg,False,False,2,Adult,30.69,Did Not Survive
+1,3,Female,16.0,0,0,7.7333,Woman,False,Queenstown,True,False,1,Teenager,7.73,Survived
+0,3,Male,30.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Male,25.0,0,0,8.6625,Man,True,Southampton,True,True,1,Adult,8.66,Did Not Survive
+0,3,Male,25.0,8,2,69.55,Man,True,Southampton,False,True,11,Adult,6.32,Did Not Survive
+0,3,Male,44.0,0,1,16.1,Man,True,Southampton,False,False,2,Adult,8.05,Did Not Survive
+1,2,Female,40.0,0,0,15.75,Woman,False,Southampton,True,False,1,Adult,15.75,Survived
+0,3,Male,26.0,0,0,7.775,Man,True,Southampton,True,False,1,Adult,7.78,Did Not Survive
+0,3,Male,17.0,0,0,8.6625,Man,True,Southampton,True,False,1,Teenager,8.66,Did Not Survive
+0,3,Male,1.0,4,1,39.6875,Child,False,Southampton,False,False,6,Child,6.61,Did Not Survive
+1,3,Male,9.0,0,2,20.525,Child,False,Southampton,False,False,3,Child,6.84,Survived
+1,1,Female,35.0,0,1,55.0,Woman,False,Southampton,False,True,2,Adult,27.5,Survived
+0,3,Female,45.0,1,4,27.9,Woman,False,Southampton,False,False,6,Adult,4.65,Did Not Survive
+0,1,Male,40.0,0,0,25.925,Man,True,Southampton,True,True,1,Adult,25.92,Did Not Survive
+0,3,Male,28.0,0,0,56.4958,Man,True,Southampton,True,False,1,Adult,56.5,Did Not Survive
+0,1,Male,61.0,0,0,33.5,Man,True,Southampton,True,False,1,Senior,33.5,Did Not Survive
+0,3,Male,4.0,4,1,29.125,Child,False,Queenstown,False,False,6,Child,4.85,Did Not Survive
+1,3,Female,1.0,1,1,11.1333,Child,False,Southampton,False,False,3,Child,3.71,Survived
+0,1,Male,56.0,0,0,30.6958,Man,True,Cherbourg,True,False,1,Adult,30.7,Did Not Survive
+0,3,Male,18.0,1,1,7.8542,Man,True,Southampton,False,False,3,Teenager,2.62,Did Not Survive
+0,3,Male,25.0,3,1,25.4667,Man,True,Southampton,False,True,5,Adult,5.09,Did Not Survive
+0,1,Female,50.0,0,0,28.7125,Woman,False,Cherbourg,True,False,1,Adult,28.71,Did Not Survive
+0,2,Male,30.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,3,Male,36.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Female,21.5,8,2,69.55,Woman,False,Southampton,False,True,11,Adult,6.32,Did Not Survive
+0,2,Male,30.0,0,0,15.05,Man,True,Cherbourg,True,True,1,Adult,15.05,Did Not Survive
+0,3,Male,9.0,4,2,31.3875,Child,False,Southampton,False,False,7,Child,4.48,Did Not Survive
+1,2,Male,1.0,2,1,39.0,Child,False,Southampton,False,False,4,Child,9.75,Survived
+1,3,Female,4.0,0,2,22.025,Child,False,Southampton,False,False,3,Child,7.34,Survived
+0,1,Male,40.0,0,0,50.0,Man,True,Southampton,True,True,1,Adult,50.0,Did Not Survive
+1,3,Female,21.5,1,0,15.5,Woman,False,Queenstown,False,True,2,Adult,7.75,Survived
+1,1,Male,45.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Survived
+0,3,Male,40.0,1,1,15.5,Man,True,Queenstown,False,False,3,Adult,5.17,Did Not Survive
+0,3,Male,36.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,2,Female,32.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+0,2,Male,19.0,0,0,13.0,Man,True,Southampton,True,False,1,Teenager,13.0,Did Not Survive
+1,3,Female,19.0,1,0,7.8542,Woman,False,Southampton,False,False,2,Teenager,3.93,Survived
+1,2,Male,3.0,1,1,26.0,Child,False,Southampton,False,False,3,Child,8.67,Survived
+1,1,Female,44.0,0,0,27.7208,Woman,False,Cherbourg,True,False,1,Adult,27.72,Survived
+1,1,Female,58.0,0,0,146.5208,Woman,False,Cherbourg,True,False,1,Adult,146.52,Survived
+0,3,Male,42.0,0,1,8.4042,Man,True,Southampton,False,False,2,Adult,4.2,Did Not Survive
+0,2,Female,24.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,3,Male,28.0,0,0,9.5,Man,True,Southampton,True,False,1,Adult,9.5,Did Not Survive
+0,3,Male,34.0,0,0,6.4958,Man,True,Southampton,True,False,1,Adult,6.5,Did Not Survive
+0,3,Male,45.5,0,0,7.225,Man,True,Cherbourg,True,False,1,Adult,7.22,Did Not Survive
+1,3,Male,18.0,0,0,8.05,Man,True,Southampton,True,False,1,Teenager,8.05,Survived
+0,3,Female,2.0,0,1,10.4625,Child,False,Southampton,False,False,2,Child,5.23,Did Not Survive
+0,3,Male,32.0,1,0,15.85,Man,True,Southampton,False,False,2,Adult,7.92,Did Not Survive
+1,3,Male,26.0,0,0,18.7875,Man,True,Cherbourg,True,False,1,Adult,18.79,Survived
+1,3,Female,16.0,0,0,7.75,Woman,False,Queenstown,True,False,1,Teenager,7.75,Survived
+1,1,Male,40.0,0,0,31.0,Man,True,Cherbourg,True,False,1,Adult,31.0,Survived
+0,3,Male,24.0,0,0,7.05,Man,True,Southampton,True,False,1,Adult,7.05,Did Not Survive
+1,2,Female,35.0,0,0,21.0,Woman,False,Southampton,True,False,1,Adult,21.0,Survived
+0,3,Male,22.0,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+0,3,Male,25.0,1,0,7.75,Man,True,Queenstown,False,True,2,Adult,3.88,Did Not Survive
+1,1,Female,31.0,1,0,113.275,Woman,False,Cherbourg,False,False,2,Adult,56.64,Survived
+1,3,Female,27.0,0,0,7.925,Woman,False,Southampton,True,False,1,Adult,7.92,Survived
+0,2,Male,42.0,1,0,27.0,Man,True,Southampton,False,False,2,Adult,13.5,Did Not Survive
+1,1,Female,32.0,0,0,76.2917,Woman,False,Cherbourg,True,False,1,Adult,76.29,Survived
+0,2,Male,30.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+1,3,Male,16.0,0,0,8.05,Man,True,Southampton,True,False,1,Teenager,8.05,Survived
+0,2,Male,27.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,3,Male,51.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+1,1,Male,38.0,1,0,90.0,Man,True,Southampton,False,False,2,Adult,45.0,Survived
+0,3,Male,22.0,0,0,9.35,Man,True,Southampton,True,False,1,Adult,9.35,Did Not Survive
+1,2,Male,19.0,0,0,10.5,Man,True,Southampton,True,False,1,Teenager,10.5,Survived
+0,3,Male,20.5,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+0,2,Male,18.0,0,0,13.0,Man,True,Southampton,True,False,1,Teenager,13.0,Did Not Survive
+0,3,Female,21.5,3,1,25.4667,Woman,False,Southampton,False,True,5,Adult,5.09,Did Not Survive
+1,1,Female,35.0,1,0,83.475,Woman,False,Southampton,False,False,2,Adult,41.74,Survived
+0,3,Male,29.0,0,0,7.775,Man,True,Southampton,True,False,1,Adult,7.78,Did Not Survive
+0,2,Male,59.0,0,0,13.5,Man,True,Southampton,True,False,1,Adult,13.5,Did Not Survive
+1,3,Female,5.0,4,2,31.3875,Child,False,Southampton,False,False,7,Child,4.48,Survived
+0,2,Male,24.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Female,21.5,0,0,7.55,Woman,False,Southampton,True,True,1,Adult,7.55,Did Not Survive
+0,2,Male,44.0,1,0,26.0,Man,True,Southampton,False,False,2,Adult,13.0,Did Not Survive
+1,2,Female,8.0,0,2,26.25,Child,False,Southampton,False,False,3,Child,8.75,Survived
+0,2,Male,19.0,0,0,10.5,Man,True,Southampton,True,False,1,Teenager,10.5,Did Not Survive
+0,2,Male,33.0,0,0,12.275,Man,True,Southampton,True,False,1,Adult,12.28,Did Not Survive
+0,3,Female,21.5,1,0,14.4542,Woman,False,Cherbourg,False,True,2,Adult,7.23,Did Not Survive
+0,2,Male,29.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Male,22.0,0,0,7.125,Man,True,Southampton,True,False,1,Adult,7.12,Did Not Survive
+0,3,Male,30.0,0,0,7.225,Man,True,Cherbourg,True,False,1,Adult,7.22,Did Not Survive
+0,1,Male,44.0,2,0,90.0,Man,True,Queenstown,False,False,3,Adult,30.0,Did Not Survive
+0,3,Female,25.0,0,0,7.775,Woman,False,Southampton,True,False,1,Adult,7.78,Did Not Survive
+1,2,Female,24.0,0,2,14.5,Woman,False,Southampton,False,False,3,Adult,4.83,Survived
+1,1,Male,37.0,1,1,52.5542,Man,True,Southampton,False,False,3,Adult,17.52,Survived
+0,2,Male,54.0,1,0,26.0,Man,True,Southampton,False,False,2,Adult,13.0,Did Not Survive
+0,3,Male,25.0,0,0,7.25,Man,True,Southampton,True,True,1,Adult,7.25,Did Not Survive
+0,3,Female,29.0,1,1,10.4625,Woman,False,Southampton,False,False,3,Adult,3.49,Did Not Survive
+0,1,Male,62.0,0,0,26.55,Man,True,Southampton,True,False,1,Senior,26.55,Did Not Survive
+0,3,Male,30.0,1,0,16.1,Man,True,Southampton,False,False,2,Adult,8.05,Did Not Survive
+0,3,Female,41.0,0,2,20.2125,Woman,False,Southampton,False,False,3,Adult,6.74,Did Not Survive
+1,3,Female,29.0,0,2,15.2458,Woman,False,Cherbourg,False,False,3,Adult,5.08,Survived
+1,1,Female,35.0,0,0,79.2,Woman,False,Cherbourg,True,True,1,Adult,79.2,Survived
+1,1,Female,30.0,0,0,86.5,Woman,False,Southampton,True,False,1,Adult,86.5,Survived
+1,1,Female,35.0,0,0,512.3292,Woman,False,Cherbourg,True,False,1,Adult,512.33,Survived
+1,2,Female,50.0,0,1,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+1,3,Male,3.0,4,2,31.3875,Child,False,Southampton,False,False,7,Child,4.48,Survived
+0,1,Male,52.0,1,1,79.65,Man,True,Southampton,False,False,3,Adult,26.55,Did Not Survive
+0,1,Male,40.0,0,0,62.66875,Man,True,Southampton,True,False,1,Adult,62.67,Did Not Survive
+0,3,Female,21.5,0,0,7.75,Woman,False,Queenstown,True,True,1,Adult,7.75,Did Not Survive
+0,2,Male,36.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Male,16.0,4,1,39.6875,Man,True,Southampton,False,False,6,Teenager,6.61,Did Not Survive
+1,3,Male,25.0,1,0,7.775,Man,True,Southampton,False,False,2,Adult,3.89,Survived
+1,1,Female,58.0,0,1,153.4625,Woman,False,Southampton,False,False,2,Adult,76.73,Survived
+1,1,Female,35.0,0,0,135.6333,Woman,False,Southampton,True,False,1,Adult,135.63,Survived
+0,1,Male,40.0,0,0,31.0,Man,True,Southampton,True,True,1,Adult,31.0,Did Not Survive
+1,3,Male,25.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Survived
+1,2,Female,41.0,0,1,19.5,Woman,False,Southampton,False,False,2,Adult,9.75,Survived
+0,1,Male,37.0,0,1,29.7,Man,True,Cherbourg,False,False,2,Adult,14.85,Did Not Survive
+1,1,Female,63.0,1,0,77.9583,Woman,False,Southampton,False,False,2,Senior,38.98,Survived
+0,3,Female,45.0,0,0,7.75,Woman,False,Southampton,True,False,1,Adult,7.75,Did Not Survive
+0,2,Male,30.0,0,0,18.75,Man,True,Southampton,True,True,1,Adult,18.75,Did Not Survive
+0,3,Male,7.0,4,1,29.125,Child,False,Queenstown,False,False,6,Child,4.85,Did Not Survive
+1,3,Female,35.0,1,1,20.25,Woman,False,Southampton,False,False,3,Adult,6.75,Survived
+0,3,Male,65.0,0,0,7.75,Man,True,Queenstown,True,False,1,Senior,7.75,Did Not Survive
+0,3,Male,28.0,0,0,7.8542,Man,True,Southampton,True,False,1,Adult,7.85,Did Not Survive
+0,3,Male,16.0,0,0,9.5,Man,True,Southampton,True,False,1,Teenager,9.5,Did Not Survive
+1,3,Male,19.0,0,0,8.05,Man,True,Southampton,True,False,1,Teenager,8.05,Survived
+0,1,Male,40.0,0,0,26.0,Man,True,Southampton,True,True,1,Adult,26.0,Did Not Survive
+0,3,Male,33.0,0,0,8.6625,Man,True,Cherbourg,True,False,1,Adult,8.66,Did Not Survive
+1,3,Male,30.0,0,0,9.5,Man,True,Southampton,True,False,1,Adult,9.5,Survived
+0,3,Male,22.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,2,Male,42.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Survived
+1,3,Female,22.0,0,0,7.75,Woman,False,Queenstown,True,False,1,Adult,7.75,Survived
+1,1,Female,26.0,0,0,78.85,Woman,False,Southampton,True,False,1,Adult,78.85,Survived
+1,1,Female,19.0,1,0,91.0792,Woman,False,Cherbourg,False,False,2,Teenager,45.54,Survived
+0,2,Male,36.0,0,0,12.875,Man,True,Cherbourg,True,False,1,Adult,12.88,Did Not Survive
+0,3,Female,24.0,0,0,8.85,Woman,False,Southampton,True,False,1,Adult,8.85,Did Not Survive
+0,3,Male,24.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+0,3,Male,23.5,0,0,7.2292,Man,True,Cherbourg,True,False,1,Adult,7.23,Did Not Survive
+0,1,Female,2.0,1,2,151.55,Child,False,Southampton,False,False,4,Child,37.89,Did Not Survive
+1,1,Male,40.0,0,0,30.5,Man,True,Southampton,True,True,1,Adult,30.5,Survived
+1,1,Female,50.0,0,1,247.5208,Woman,False,Cherbourg,False,False,2,Adult,123.76,Survived
+1,3,Male,25.0,2,0,23.25,Man,True,Queenstown,False,True,3,Adult,7.75,Survived
+0,3,Male,19.0,0,0,8.05,Man,True,Southampton,True,False,1,Teenager,8.05,Did Not Survive
+1,2,Female,28.0,0,0,12.35,Woman,False,Queenstown,True,True,1,Adult,12.35,Survived
+1,1,Male,0.92,1,2,151.55,Child,False,Southampton,False,False,4,Child,37.89,Survived
+1,1,Female,35.0,0,0,110.8833,Woman,False,Cherbourg,True,True,1,Adult,110.88,Survived
+1,1,Female,17.0,1,0,108.9,Woman,False,Cherbourg,False,False,2,Teenager,54.45,Survived
+0,2,Male,30.0,1,0,24.0,Man,True,Cherbourg,False,False,2,Adult,12.0,Did Not Survive
+1,1,Female,30.0,0,0,56.9292,Woman,False,Cherbourg,True,False,1,Adult,56.93,Survived
+1,1,Female,24.0,0,0,83.1583,Woman,False,Cherbourg,True,False,1,Adult,83.16,Survived
+1,1,Female,18.0,2,2,262.375,Woman,False,Cherbourg,False,False,5,Teenager,52.48,Survived
+0,2,Female,26.0,1,1,26.0,Woman,False,Southampton,False,False,3,Adult,8.67,Did Not Survive
+0,2,Male,43.0,1,1,26.25,Man,True,Southampton,False,False,3,Adult,8.75,Did Not Survive
+1,3,Female,26.0,0,0,7.8542,Woman,False,Southampton,True,False,1,Adult,7.85,Survived
+1,2,Female,24.0,1,0,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+0,2,Male,54.0,0,0,14.0,Man,True,Southampton,True,False,1,Adult,14.0,Did Not Survive
+1,1,Female,31.0,0,2,164.8667,Woman,False,Southampton,False,False,3,Adult,54.96,Survived
+1,1,Female,40.0,1,1,134.5,Woman,False,Cherbourg,False,False,3,Adult,44.83,Survived
+0,3,Male,27.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,2,Female,30.0,0,0,12.35,Woman,False,Queenstown,True,False,1,Adult,12.35,Survived
+1,2,Female,22.0,1,1,29.0,Woman,False,Southampton,False,False,3,Adult,9.67,Survived
+1,1,Female,36.0,0,0,135.6333,Woman,False,Cherbourg,True,False,1,Adult,135.63,Survived
+0,3,Male,61.0,0,0,6.2375,Man,True,Southampton,True,False,1,Senior,6.24,Did Not Survive
+1,2,Female,36.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+1,3,Female,31.0,1,1,20.525,Woman,False,Southampton,False,False,3,Adult,6.84,Survived
+1,1,Female,16.0,0,1,57.9792,Woman,False,Cherbourg,False,False,2,Teenager,28.99,Survived
+1,3,Female,21.5,2,0,23.25,Woman,False,Queenstown,False,True,3,Adult,7.75,Survived
+0,1,Male,45.5,0,0,28.5,Man,True,Southampton,True,False,1,Adult,28.5,Did Not Survive
+0,1,Male,38.0,0,1,153.4625,Man,True,Southampton,False,False,2,Adult,76.73,Did Not Survive
+0,3,Male,16.0,2,0,18.0,Man,True,Southampton,False,False,3,Teenager,6.0,Did Not Survive
+1,1,Female,35.0,1,0,133.65,Woman,False,Southampton,False,True,2,Adult,66.82,Survived
+0,1,Male,29.0,1,0,66.6,Man,True,Southampton,False,False,2,Adult,33.3,Did Not Survive
+1,1,Female,41.0,0,0,134.5,Woman,False,Cherbourg,True,False,1,Adult,134.5,Survived
+1,3,Male,45.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Survived
+0,1,Male,45.0,0,0,35.5,Man,True,Southampton,True,False,1,Adult,35.5,Did Not Survive
+1,2,Male,2.0,1,1,26.0,Child,False,Southampton,False,False,3,Child,8.67,Survived
+1,1,Female,24.0,3,2,263.0,Woman,False,Southampton,False,False,6,Adult,43.83,Survived
+0,2,Male,28.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,2,Male,36.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+1,2,Female,24.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+1,2,Female,40.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+1,3,Female,21.5,1,0,16.1,Woman,False,Southampton,False,True,2,Adult,8.05,Survived
+1,3,Male,3.0,1,1,15.9,Child,False,Southampton,False,False,3,Child,5.3,Survived
+0,3,Male,42.0,0,0,8.6625,Man,True,Southampton,True,False,1,Adult,8.66,Did Not Survive
+0,3,Male,23.0,0,0,9.225,Man,True,Southampton,True,False,1,Adult,9.22,Did Not Survive
+0,1,Male,40.0,0,0,35.0,Man,True,Southampton,True,True,1,Adult,35.0,Did Not Survive
+0,3,Male,15.0,1,1,7.2292,Child,False,Cherbourg,False,False,3,Teenager,2.41,Did Not Survive
+0,3,Male,25.0,1,0,17.8,Man,True,Southampton,False,False,2,Adult,8.9,Did Not Survive
+1,1,Female,22.0,0,1,55.0,Woman,False,Southampton,False,False,2,Adult,27.5,Survived
+0,2,Female,38.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,3,Male,40.0,1,4,27.9,Man,True,Southampton,False,False,6,Adult,4.65,Did Not Survive
+0,2,Male,29.0,1,0,27.7208,Man,True,Cherbourg,False,False,2,Adult,13.86,Did Not Survive
+0,3,Female,45.0,0,1,14.4542,Woman,False,Cherbourg,False,False,2,Adult,7.23,Did Not Survive
+0,3,Male,35.0,0,0,7.05,Man,True,Southampton,True,False,1,Adult,7.05,Did Not Survive
+0,3,Male,30.0,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+1,1,Female,60.0,1,0,75.25,Woman,False,Cherbourg,False,False,2,Senior,37.62,Survived
+1,3,Female,21.5,0,0,7.2292,Woman,False,Cherbourg,True,True,1,Adult,7.23,Survived
+1,1,Female,24.0,0,0,69.3,Woman,False,Cherbourg,True,False,1,Adult,69.3,Survived
+1,1,Male,25.0,1,0,55.4417,Man,True,Cherbourg,False,False,2,Adult,27.72,Survived
+0,3,Male,18.0,1,0,6.4958,Man,True,Southampton,False,False,2,Teenager,3.25,Did Not Survive
+0,3,Male,19.0,0,0,8.05,Man,True,Southampton,True,False,1,Teenager,8.05,Did Not Survive
+0,1,Male,22.0,0,0,135.6333,Man,True,Cherbourg,True,False,1,Adult,135.63,Did Not Survive
+0,3,Female,3.0,3,1,21.075,Child,False,Southampton,False,False,5,Child,4.22,Did Not Survive
+1,1,Female,35.0,1,0,82.1708,Woman,False,Cherbourg,False,True,2,Adult,41.09,Survived
+1,3,Female,22.0,0,0,7.25,Woman,False,Southampton,True,False,1,Adult,7.25,Survived
+0,1,Male,27.0,0,2,211.5,Man,True,Cherbourg,False,False,3,Adult,70.5,Did Not Survive
+0,3,Male,20.0,0,0,4.0125,Man,True,Cherbourg,True,False,1,Adult,4.01,Did Not Survive
+0,3,Male,19.0,0,0,7.775,Man,True,Southampton,True,False,1,Teenager,7.78,Did Not Survive
+1,1,Female,42.0,0,0,227.525,Woman,False,Cherbourg,True,False,1,Adult,227.52,Survived
+1,3,Female,1.0,0,2,15.7417,Child,False,Cherbourg,False,False,3,Child,5.25,Survived
+0,3,Male,32.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Did Not Survive
+1,1,Female,35.0,1,0,52.0,Woman,False,Southampton,False,False,2,Adult,26.0,Survived
+0,2,Male,18.0,0,0,73.5,Man,True,Southampton,True,False,1,Teenager,73.5,Did Not Survive
+0,3,Male,1.0,5,2,46.9,Child,False,Southampton,False,False,8,Child,5.86,Did Not Survive
+0,3,Male,25.0,0,0,7.7292,Man,True,Queenstown,True,True,1,Adult,7.73,Did Not Survive
+1,2,Female,17.0,0,0,12.0,Woman,False,Cherbourg,True,False,1,Teenager,12.0,Survived
+1,1,Male,36.0,1,2,120.0,Man,True,Southampton,False,False,4,Adult,30.0,Survived
+1,3,Male,21.0,0,0,7.7958,Man,True,Southampton,True,False,1,Adult,7.8,Survived
+0,3,Male,28.0,2,0,7.925,Man,True,Southampton,False,False,3,Adult,2.64,Did Not Survive
+1,1,Female,23.0,1,0,113.275,Woman,False,Cherbourg,False,False,2,Adult,56.64,Survived
+1,3,Female,24.0,0,2,16.7,Woman,False,Southampton,False,False,3,Adult,5.57,Survived
+0,3,Male,22.0,0,0,7.7958,Man,True,Southampton,True,False,1,Adult,7.8,Did Not Survive
+0,3,Female,31.0,0,0,7.8542,Woman,False,Southampton,True,False,1,Adult,7.85,Did Not Survive
+0,2,Male,46.0,0,0,26.0,Man,True,Southampton,True,False,1,Adult,26.0,Did Not Survive
+0,2,Male,23.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+1,2,Female,28.0,0,0,12.65,Woman,False,Southampton,True,False,1,Adult,12.65,Survived
+1,3,Male,39.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Survived
+0,3,Male,26.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Female,21.0,1,0,9.825,Woman,False,Southampton,False,False,2,Adult,4.91,Did Not Survive
+0,3,Male,28.0,1,0,15.85,Man,True,Southampton,False,False,2,Adult,7.92,Did Not Survive
+0,3,Female,20.0,0,0,8.6625,Woman,False,Southampton,True,False,1,Adult,8.66,Did Not Survive
+0,2,Male,34.0,1,0,21.0,Man,True,Southampton,False,False,2,Adult,10.5,Did Not Survive
+0,3,Male,51.0,0,0,7.75,Man,True,Southampton,True,False,1,Adult,7.75,Did Not Survive
+1,2,Male,3.0,1,1,18.75,Child,False,Southampton,False,False,3,Child,6.25,Survived
+0,3,Male,21.0,0,0,7.775,Man,True,Southampton,True,False,1,Adult,7.78,Did Not Survive
+0,3,Male,25.0,0,0,6.8583,Man,True,Queenstown,True,True,1,Adult,6.86,Did Not Survive
+1,1,Female,33.0,1,0,90.0,Woman,False,Queenstown,False,False,2,Adult,45.0,Survived
+1,3,Male,44.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Survived
+0,3,Female,21.5,0,0,8.05,Woman,False,Southampton,True,True,1,Adult,8.05,Did Not Survive
+1,2,Female,34.0,1,1,32.5,Woman,False,Southampton,False,False,3,Adult,10.83,Survived
+1,2,Female,18.0,0,2,13.0,Woman,False,Southampton,False,False,3,Teenager,4.33,Survived
+0,3,Female,10.0,0,2,24.15,Child,False,Southampton,False,False,3,Child,8.05,Did Not Survive
+0,3,Male,21.0,0,0,7.7333,Man,True,Queenstown,True,False,1,Adult,7.73,Did Not Survive
+0,3,Male,29.0,0,0,7.875,Man,True,Southampton,True,False,1,Adult,7.88,Did Not Survive
+0,3,Female,28.0,1,1,14.4,Woman,False,Southampton,False,False,3,Adult,4.8,Did Not Survive
+0,3,Male,18.0,1,1,20.2125,Man,True,Southampton,False,False,3,Teenager,6.74,Did Not Survive
+1,2,Female,28.0,1,0,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+1,2,Female,19.0,0,0,26.0,Woman,False,Southampton,True,False,1,Teenager,26.0,Survived
+1,3,Male,32.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Survived
+1,1,Male,28.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Survived
+1,2,Female,42.0,1,0,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+0,3,Male,17.0,0,0,7.125,Man,True,Southampton,True,False,1,Teenager,7.12,Did Not Survive
+0,1,Male,50.0,1,0,55.9,Man,True,Southampton,False,False,2,Adult,27.95,Did Not Survive
+1,1,Female,14.0,1,2,120.0,Child,False,Southampton,False,False,4,Teenager,30.0,Survived
+0,3,Female,21.0,2,2,34.375,Woman,False,Southampton,False,False,5,Adult,6.88,Did Not Survive
+1,2,Female,24.0,2,3,18.75,Woman,False,Southampton,False,False,6,Adult,3.12,Survived
+0,1,Male,64.0,1,4,263.0,Man,True,Southampton,False,False,6,Senior,43.83,Did Not Survive
+0,2,Male,31.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+1,2,Female,45.0,1,1,26.25,Woman,False,Southampton,False,False,3,Adult,8.75,Survived
+0,3,Male,20.0,0,0,9.5,Man,True,Southampton,True,False,1,Adult,9.5,Did Not Survive
+0,3,Male,25.0,1,0,7.775,Man,True,Southampton,False,False,2,Adult,3.89,Did Not Survive
+1,2,Female,28.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+1,3,Male,25.0,0,0,8.1125,Man,True,Southampton,True,True,1,Adult,8.11,Survived
+1,1,Male,4.0,0,2,81.8583,Child,False,Southampton,False,False,3,Child,27.29,Survived
+1,2,Female,13.0,0,1,19.5,Child,False,Southampton,False,False,2,Teenager,9.75,Survived
+1,1,Male,34.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Survived
+1,3,Female,5.0,2,1,19.2583,Child,False,Cherbourg,False,False,4,Child,4.81,Survived
+1,1,Male,52.0,0,0,30.5,Man,True,Southampton,True,False,1,Adult,30.5,Survived
+0,2,Male,36.0,1,2,27.75,Man,True,Southampton,False,False,4,Adult,6.94,Did Not Survive
+0,3,Male,25.0,1,0,19.9667,Man,True,Southampton,False,True,2,Adult,9.98,Did Not Survive
+0,1,Male,30.0,0,0,27.75,Man,True,Cherbourg,True,False,1,Adult,27.75,Did Not Survive
+1,1,Male,49.0,1,0,89.1042,Man,True,Cherbourg,False,False,2,Adult,44.55,Survived
+1,3,Male,29.0,0,0,7.8958,Man,True,Cherbourg,True,False,1,Adult,7.9,Survived
+0,1,Male,65.0,0,0,26.55,Man,True,Southampton,True,False,1,Senior,26.55,Did Not Survive
+1,1,Female,35.0,1,0,51.8625,Woman,False,Southampton,False,True,2,Adult,25.93,Survived
+1,2,Female,50.0,0,0,10.5,Woman,False,Southampton,True,False,1,Adult,10.5,Survived
+1,1,Male,48.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Survived
+0,3,Male,34.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,1,Male,47.0,0,0,38.5,Man,True,Southampton,True,False,1,Adult,38.5,Did Not Survive
+0,2,Male,48.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,3,Male,38.0,0,0,7.05,Man,True,Southampton,True,False,1,Adult,7.05,Did Not Survive
+0,1,Male,56.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Did Not Survive
+0,3,Male,25.0,0,0,7.725,Man,True,Queenstown,True,True,1,Adult,7.72,Did Not Survive
+1,3,Female,0.75,2,1,19.2583,Child,False,Cherbourg,False,False,4,Child,4.81,Survived
+0,3,Male,38.0,0,0,8.6625,Man,True,Southampton,True,False,1,Adult,8.66,Did Not Survive
+1,2,Female,33.0,1,2,27.75,Woman,False,Southampton,False,False,4,Adult,6.94,Survived
+1,2,Female,23.0,0,0,13.7917,Woman,False,Cherbourg,True,False,1,Adult,13.79,Survived
+0,3,Female,22.0,0,0,9.8375,Woman,False,Southampton,True,False,1,Adult,9.84,Did Not Survive
+0,1,Male,40.0,0,0,52.0,Man,True,Southampton,True,True,1,Adult,52.0,Did Not Survive
+0,3,Male,29.0,1,0,7.0458,Man,True,Southampton,False,False,2,Adult,3.52,Did Not Survive
+0,3,Male,22.0,0,0,7.5208,Man,True,Southampton,True,False,1,Adult,7.52,Did Not Survive
+1,3,Female,2.0,0,1,12.2875,Child,False,Southampton,False,False,2,Child,6.14,Survived
+0,3,Male,9.0,5,2,46.9,Child,False,Southampton,False,False,8,Child,5.86,Did Not Survive
+0,3,Male,50.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+1,3,Female,63.0,0,0,9.5875,Woman,False,Southampton,True,False,1,Senior,9.59,Survived
+1,1,Male,25.0,1,0,91.0792,Man,True,Cherbourg,False,False,2,Adult,45.54,Survived
+1,1,Female,35.0,1,0,90.0,Woman,False,Southampton,False,False,2,Adult,45.0,Survived
+0,1,Male,58.0,0,0,29.7,Man,True,Cherbourg,True,False,1,Adult,29.7,Did Not Survive
+1,3,Male,9.0,1,1,15.9,Child,False,Southampton,False,False,3,Child,5.3,Survived
+0,3,Male,21.0,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+0,1,Male,55.0,0,0,30.5,Man,True,Southampton,True,False,1,Adult,30.5,Did Not Survive
+0,1,Male,71.0,0,0,49.5042,Man,True,Cherbourg,True,False,1,Senior,49.5,Did Not Survive
+0,3,Male,25.0,0,0,14.4583,Man,True,Cherbourg,True,True,1,Adult,14.46,Did Not Survive
+1,1,Female,54.0,1,0,78.2667,Woman,False,Cherbourg,False,False,2,Adult,39.13,Survived
+0,3,Male,25.0,0,0,15.1,Man,True,Southampton,True,True,1,Adult,15.1,Did Not Survive
+0,1,Female,25.0,1,2,151.55,Woman,False,Southampton,False,False,4,Adult,37.89,Did Not Survive
+0,3,Male,24.0,0,0,7.7958,Man,True,Southampton,True,False,1,Adult,7.8,Did Not Survive
+0,3,Female,21.0,0,0,7.75,Woman,False,Queenstown,True,False,1,Adult,7.75,Did Not Survive
+0,3,Female,21.5,0,0,7.6292,Woman,False,Queenstown,True,True,1,Adult,7.63,Did Not Survive
+0,3,Female,37.0,0,0,9.5875,Woman,False,Southampton,True,False,1,Adult,9.59,Did Not Survive
+1,1,Female,16.0,0,0,86.5,Woman,False,Southampton,True,False,1,Teenager,86.5,Survived
+0,1,Male,18.0,1,0,108.9,Man,True,Cherbourg,False,False,2,Teenager,54.45,Did Not Survive
+1,2,Female,33.0,0,2,26.0,Woman,False,Southampton,False,False,3,Adult,8.67,Survived
+1,1,Male,40.0,0,0,26.55,Man,True,Southampton,True,True,1,Adult,26.55,Survived
+0,3,Male,28.0,0,0,22.525,Man,True,Southampton,True,False,1,Adult,22.52,Did Not Survive
+1,3,Male,26.0,0,0,56.4958,Man,True,Southampton,True,False,1,Adult,56.5,Survived
+1,3,Male,29.0,0,0,7.75,Man,True,Queenstown,True,False,1,Adult,7.75,Survived
+1,1,Male,36.0,0,0,26.2875,Man,True,Southampton,True,False,1,Adult,26.29,Survived
+1,1,Female,54.0,1,0,59.4,Woman,False,Cherbourg,False,False,2,Adult,29.7,Survived
+0,3,Male,24.0,0,0,7.4958,Man,True,Southampton,True,False,1,Adult,7.5,Did Not Survive
+0,1,Male,47.0,0,0,34.0208,Man,True,Southampton,True,False,1,Adult,34.02,Did Not Survive
+1,2,Female,34.0,0,0,10.5,Woman,False,Southampton,True,False,1,Adult,10.5,Survived
+0,3,Male,25.0,0,0,24.15,Man,True,Queenstown,True,True,1,Adult,24.15,Did Not Survive
+1,2,Female,36.0,1,0,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+0,3,Male,32.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,1,Female,30.0,0,0,93.5,Woman,False,Southampton,True,False,1,Adult,93.5,Survived
+1,1,Female,44.0,0,1,57.9792,Woman,False,Cherbourg,False,False,2,Adult,28.99,Survived
+0,3,Male,25.0,0,0,7.2292,Man,True,Cherbourg,True,True,1,Adult,7.23,Did Not Survive
+0,3,Male,40.5,0,0,7.75,Man,True,Queenstown,True,False,1,Adult,7.75,Did Not Survive
+0,1,Male,40.0,0,0,221.7792,Man,True,Southampton,True,True,1,Adult,221.78,Did Not Survive
+0,3,Male,39.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Did Not Survive
+0,2,Male,23.0,2,1,11.5,Man,True,Southampton,False,False,4,Adult,2.88,Did Not Survive
+1,2,Female,2.0,1,1,26.0,Child,False,Southampton,False,False,3,Child,8.67,Survived
+0,3,Male,17.0,1,1,7.2292,Man,True,Cherbourg,False,False,3,Teenager,2.41,Did Not Survive
+1,3,Female,21.5,0,2,22.3583,Woman,False,Cherbourg,False,True,3,Adult,7.45,Survived
+0,3,Female,30.0,0,0,8.6625,Woman,False,Southampton,True,False,1,Adult,8.66,Did Not Survive
+1,2,Female,7.0,0,2,26.25,Child,False,Southampton,False,False,3,Child,8.75,Survived
+0,1,Male,45.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Did Not Survive
+1,1,Female,30.0,0,0,106.425,Woman,False,Cherbourg,True,False,1,Adult,106.42,Survived
+0,3,Male,25.0,0,0,14.5,Man,True,Southampton,True,True,1,Adult,14.5,Did Not Survive
+1,1,Female,22.0,0,2,49.5,Woman,False,Cherbourg,False,False,3,Adult,16.5,Survived
+1,1,Female,36.0,0,2,71.0,Woman,False,Southampton,False,False,3,Adult,23.67,Survived
+0,3,Female,9.0,4,2,31.275,Child,False,Southampton,False,False,7,Child,4.47,Did Not Survive
+0,3,Female,11.0,4,2,31.275,Child,False,Southampton,False,False,7,Child,4.47,Did Not Survive
+1,2,Male,32.0,1,0,26.0,Man,True,Southampton,False,False,2,Adult,13.0,Survived
+0,1,Male,50.0,1,0,106.425,Man,True,Cherbourg,False,False,2,Adult,53.21,Did Not Survive
+0,1,Male,64.0,0,0,26.0,Man,True,Southampton,True,False,1,Senior,26.0,Did Not Survive
+1,2,Female,19.0,1,0,26.0,Woman,False,Southampton,False,False,2,Teenager,13.0,Survived
+1,2,Male,30.0,0,0,13.8625,Man,True,Cherbourg,True,True,1,Adult,13.86,Survived
+0,3,Male,33.0,1,1,20.525,Man,True,Southampton,False,False,3,Adult,6.84,Did Not Survive
+1,2,Male,8.0,1,1,36.75,Child,False,Southampton,False,False,3,Child,12.25,Survived
+1,1,Male,17.0,0,2,110.8833,Man,True,Cherbourg,False,False,3,Teenager,36.96,Survived
+0,2,Male,27.0,0,0,26.0,Man,True,Southampton,True,False,1,Adult,26.0,Did Not Survive
+0,3,Male,25.0,0,0,7.8292,Man,True,Queenstown,True,True,1,Adult,7.83,Did Not Survive
+1,3,Male,22.0,0,0,7.225,Man,True,Cherbourg,True,False,1,Adult,7.22,Survived
+1,3,Female,22.0,0,0,7.775,Woman,False,Southampton,True,False,1,Adult,7.78,Survived
+1,1,Female,48.0,1,0,39.6,Woman,False,Cherbourg,False,False,2,Adult,19.8,Survived
+0,1,Male,40.0,0,0,227.525,Man,True,Cherbourg,True,True,1,Adult,227.52,Did Not Survive
+1,1,Female,39.0,1,1,79.65,Woman,False,Southampton,False,False,3,Adult,26.55,Survived
+1,3,Female,36.0,1,0,17.4,Woman,False,Southampton,False,False,2,Adult,8.7,Survived
+0,3,Male,40.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+0,2,Male,28.0,0,0,13.5,Man,True,Southampton,True,False,1,Adult,13.5,Did Not Survive
+0,3,Male,24.0,2,0,24.15,Man,True,Southampton,False,False,3,Adult,8.05,Did Not Survive
+0,3,Male,19.0,0,0,7.8958,Man,True,Southampton,True,False,1,Teenager,7.9,Did Not Survive
+0,3,Female,29.0,0,4,21.075,Woman,False,Southampton,False,False,5,Adult,4.22,Did Not Survive
+1,3,Male,32.0,0,0,7.8542,Man,True,Southampton,True,False,1,Adult,7.85,Survived
+1,2,Male,62.0,0,0,10.5,Man,True,Southampton,True,False,1,Senior,10.5,Survived
+1,1,Female,53.0,2,0,51.4792,Woman,False,Southampton,False,False,3,Adult,17.16,Survived
+1,1,Male,36.0,0,0,26.3875,Man,True,Southampton,True,False,1,Adult,26.39,Survived
+0,3,Male,16.0,0,0,8.05,Man,True,Southampton,True,False,1,Teenager,8.05,Did Not Survive
+0,3,Male,19.0,0,0,14.5,Man,True,Southampton,True,False,1,Teenager,14.5,Did Not Survive
+1,2,Female,34.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+1,1,Female,39.0,1,0,55.9,Woman,False,Southampton,False,False,2,Adult,27.95,Survived
+0,3,Female,21.5,1,0,14.4583,Woman,False,Cherbourg,False,True,2,Adult,7.23,Did Not Survive
+1,3,Male,32.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Survived
+1,2,Female,25.0,1,1,30.0,Woman,False,Southampton,False,False,3,Adult,10.0,Survived
+1,1,Female,39.0,1,1,110.8833,Woman,False,Cherbourg,False,False,3,Adult,36.96,Survived
+0,2,Male,54.0,0,0,26.0,Man,True,Southampton,True,False,1,Adult,26.0,Did Not Survive
+0,1,Male,36.0,0,0,40.125,Man,True,Cherbourg,True,False,1,Adult,40.12,Did Not Survive
+0,3,Male,25.0,0,0,8.7125,Man,True,Cherbourg,True,True,1,Adult,8.71,Did Not Survive
+1,1,Female,18.0,0,2,79.65,Woman,False,Southampton,False,False,3,Teenager,26.55,Survived
+0,2,Male,47.0,0,0,15.0,Man,True,Southampton,True,False,1,Adult,15.0,Did Not Survive
+1,1,Male,60.0,1,1,79.2,Man,True,Cherbourg,False,False,3,Senior,26.4,Survived
+0,3,Male,35.0,0,0,7.125,Man,True,Southampton,True,False,1,Adult,7.12,Did Not Survive
+1,1,Female,52.0,1,0,78.2667,Woman,False,Cherbourg,False,False,2,Adult,39.13,Survived
+0,3,Male,47.0,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+0,3,Female,21.5,0,2,7.75,Woman,False,Queenstown,False,True,3,Adult,2.58,Did Not Survive
+0,2,Male,37.0,1,0,26.0,Man,True,Southampton,False,False,2,Adult,13.0,Did Not Survive
+0,3,Male,36.0,1,1,24.15,Man,True,Southampton,False,False,3,Adult,8.05,Did Not Survive
+1,2,Female,28.0,0,0,33.0,Woman,False,Southampton,True,True,1,Adult,33.0,Survived
+0,3,Male,49.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+1,1,Male,49.0,1,0,56.9292,Man,True,Cherbourg,False,False,2,Adult,28.46,Survived
+1,2,Female,24.0,2,1,27.0,Woman,False,Southampton,False,False,4,Adult,6.75,Survived
+0,1,Male,40.0,0,0,42.4,Man,True,Southampton,True,True,1,Adult,42.4,Did Not Survive
+0,3,Male,44.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+1,1,Male,35.0,0,0,26.55,Man,True,Cherbourg,True,False,1,Adult,26.55,Survived
+0,3,Male,36.0,1,0,15.55,Man,True,Southampton,False,False,2,Adult,7.78,Did Not Survive
+0,3,Male,30.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,1,Male,27.0,0,0,30.5,Man,True,Southampton,True,False,1,Adult,30.5,Survived
+1,2,Female,22.0,1,2,41.5792,Woman,False,Cherbourg,False,False,4,Adult,10.39,Survived
+1,1,Female,40.0,0,0,153.4625,Woman,False,Southampton,True,False,1,Adult,153.46,Survived
+0,3,Female,39.0,1,5,31.275,Woman,False,Southampton,False,False,7,Adult,4.47,Did Not Survive
+0,3,Male,25.0,0,0,7.05,Man,True,Southampton,True,True,1,Adult,7.05,Did Not Survive
+1,2,Female,24.0,1,2,65.0,Woman,False,Southampton,False,False,4,Adult,16.25,Survived
+0,3,Male,34.0,1,1,14.4,Man,True,Southampton,False,False,3,Adult,4.8,Did Not Survive
+0,3,Female,26.0,1,0,16.1,Woman,False,Southampton,False,False,2,Adult,8.05,Did Not Survive
+1,2,Female,4.0,2,1,39.0,Child,False,Southampton,False,False,4,Child,9.75,Survived
+0,2,Male,26.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Male,27.0,1,0,14.4542,Man,True,Cherbourg,False,False,2,Adult,7.23,Did Not Survive
+1,1,Male,42.0,1,0,52.5542,Man,True,Southampton,False,False,2,Adult,26.28,Survived
+1,3,Male,20.0,1,1,15.7417,Man,True,Cherbourg,False,False,3,Adult,5.25,Survived
+0,3,Male,21.0,0,0,7.8542,Man,True,Southampton,True,False,1,Adult,7.85,Did Not Survive
+0,3,Male,21.0,0,0,16.1,Man,True,Southampton,True,False,1,Adult,16.1,Did Not Survive
+0,1,Male,61.0,0,0,32.3208,Man,True,Southampton,True,False,1,Senior,32.32,Did Not Survive
+0,2,Male,57.0,0,0,12.35,Man,True,Queenstown,True,False,1,Adult,12.35,Did Not Survive
+1,1,Female,21.0,0,0,77.9583,Woman,False,Southampton,True,False,1,Adult,77.96,Survived
+0,3,Male,26.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+0,3,Male,25.0,0,0,7.7333,Man,True,Queenstown,True,True,1,Adult,7.73,Did Not Survive
+1,1,Male,80.0,0,0,30.0,Man,True,Southampton,True,False,1,Senior,30.0,Survived
+0,3,Male,51.0,0,0,7.0542,Man,True,Southampton,True,False,1,Adult,7.05,Did Not Survive
+1,1,Male,32.0,0,0,30.5,Man,True,Cherbourg,True,False,1,Adult,30.5,Survived
+0,1,Male,40.0,0,0,62.66875,Man,True,Southampton,True,True,1,Adult,62.67,Did Not Survive
+0,3,Female,9.0,3,2,27.9,Child,False,Southampton,False,False,6,Child,4.65,Did Not Survive
+0,2,Male,31.0,1,1,26.25,Man,True,Southampton,False,False,3,Adult,8.75,Did Not Survive
+0,3,Female,41.0,0,5,39.6875,Woman,False,Southampton,False,False,6,Adult,6.61,Did Not Survive
+0,3,Male,25.0,1,0,16.1,Man,True,Southampton,False,True,2,Adult,8.05,Did Not Survive
+0,3,Female,2.0,3,2,27.9,Child,False,Southampton,False,False,6,Child,4.65,Did Not Survive
+1,3,Male,25.0,0,0,56.4958,Man,True,Southampton,True,True,1,Adult,56.5,Survived
+1,1,Male,48.0,1,0,76.7292,Man,True,Cherbourg,False,False,2,Adult,38.36,Survived
+1,1,Male,56.0,0,0,35.5,Man,True,Cherbourg,True,False,1,Adult,35.5,Survived
+0,3,Male,25.0,0,0,7.55,Man,True,Southampton,True,True,1,Adult,7.55,Did Not Survive
+1,3,Female,23.0,0,0,7.55,Woman,False,Southampton,True,False,1,Adult,7.55,Survived
+1,2,Female,18.0,0,1,23.0,Woman,False,Southampton,False,False,2,Teenager,11.5,Survived
+0,3,Male,21.0,0,0,8.4333,Man,True,Southampton,True,False,1,Adult,8.43,Did Not Survive
+1,3,Female,21.5,0,0,7.8292,Woman,False,Queenstown,True,True,1,Adult,7.83,Survived
+0,3,Female,18.0,0,0,6.75,Woman,False,Queenstown,True,False,1,Teenager,6.75,Did Not Survive
+0,2,Male,24.0,2,0,73.5,Man,True,Southampton,False,False,3,Adult,24.5,Did Not Survive
+0,3,Female,32.0,1,1,15.5,Woman,False,Queenstown,False,False,3,Adult,5.17,Did Not Survive
+0,2,Male,23.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,1,Male,58.0,0,2,113.275,Man,True,Cherbourg,False,False,3,Adult,37.76,Did Not Survive
+1,1,Male,50.0,2,0,133.65,Man,True,Southampton,False,False,3,Adult,44.55,Survived
+0,3,Male,40.0,0,0,7.225,Man,True,Cherbourg,True,False,1,Adult,7.22,Did Not Survive
+0,1,Male,47.0,0,0,25.5875,Man,True,Southampton,True,False,1,Adult,25.59,Did Not Survive
+0,3,Male,36.0,0,0,7.4958,Man,True,Southampton,True,False,1,Adult,7.5,Did Not Survive
+1,3,Male,20.0,1,0,7.925,Man,True,Southampton,False,False,2,Adult,3.96,Survived
+0,2,Male,32.0,2,0,73.5,Man,True,Southampton,False,False,3,Adult,24.5,Did Not Survive
+0,3,Male,25.0,0,0,7.775,Man,True,Southampton,True,True,1,Adult,7.78,Did Not Survive
+0,3,Male,43.0,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+1,1,Female,35.0,1,0,52.0,Woman,False,Southampton,False,True,2,Adult,26.0,Survived
+1,2,Female,40.0,1,1,39.0,Woman,False,Southampton,False,False,3,Adult,13.0,Survived
+0,1,Male,31.0,1,0,52.0,Man,True,Southampton,False,False,2,Adult,26.0,Did Not Survive
+0,2,Male,70.0,0,0,10.5,Man,True,Southampton,True,False,1,Senior,10.5,Did Not Survive
+1,2,Male,31.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Survived
+0,3,Male,18.0,0,0,7.775,Man,True,Southampton,True,False,1,Teenager,7.78,Did Not Survive
+0,3,Male,24.5,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+1,3,Female,18.0,0,0,9.8417,Woman,False,Southampton,True,False,1,Teenager,9.84,Survived
+0,3,Female,43.0,1,6,46.9,Woman,False,Southampton,False,False,8,Adult,5.86,Did Not Survive
+1,1,Male,36.0,0,1,512.3292,Man,True,Cherbourg,False,False,2,Adult,256.16,Survived
+0,3,Female,21.5,0,0,8.1375,Woman,False,Queenstown,True,True,1,Adult,8.14,Did Not Survive
+1,1,Male,27.0,0,0,76.7292,Man,True,Cherbourg,True,False,1,Adult,76.73,Survived
+0,3,Male,20.0,0,0,9.225,Man,True,Southampton,True,False,1,Adult,9.22,Did Not Survive
+0,3,Male,14.0,5,2,46.9,Child,False,Southampton,False,False,8,Teenager,5.86,Did Not Survive
+0,2,Male,60.0,1,1,39.0,Man,True,Southampton,False,False,3,Senior,13.0,Did Not Survive
+0,2,Male,25.0,1,2,41.5792,Man,True,Cherbourg,False,False,4,Adult,10.39,Did Not Survive
+0,3,Male,14.0,4,1,39.6875,Child,False,Southampton,False,False,6,Teenager,6.61,Did Not Survive
+0,3,Male,19.0,0,0,10.1708,Man,True,Southampton,True,False,1,Teenager,10.17,Did Not Survive
+0,3,Male,18.0,0,0,7.7958,Man,True,Southampton,True,False,1,Teenager,7.8,Did Not Survive
+1,1,Female,15.0,0,1,211.3375,Child,False,Southampton,False,False,2,Teenager,105.67,Survived
+1,1,Male,31.0,1,0,57.0,Man,True,Southampton,False,False,2,Adult,28.5,Survived
+1,3,Female,4.0,0,1,13.4167,Child,False,Cherbourg,False,False,2,Child,6.71,Survived
+0,3,Male,25.0,0,0,7.225,Man,True,Cherbourg,True,False,1,Adult,7.22,Did Not Survive
+0,1,Male,60.0,0,0,26.55,Man,True,Southampton,True,False,1,Senior,26.55,Did Not Survive
+0,2,Male,52.0,0,0,13.5,Man,True,Southampton,True,False,1,Adult,13.5,Did Not Survive
+1,3,Female,21.5,0,0,7.7333,Woman,False,Queenstown,True,True,1,Adult,7.73,Survived
+0,1,Male,49.0,1,1,110.8833,Man,True,Cherbourg,False,False,3,Adult,36.96,Did Not Survive
+0,3,Male,42.0,0,0,7.65,Man,True,Southampton,True,False,1,Adult,7.65,Did Not Survive
+1,1,Female,18.0,1,0,227.525,Woman,False,Cherbourg,False,False,2,Teenager,113.76,Survived
+1,1,Male,35.0,0,0,26.2875,Man,True,Southampton,True,False,1,Adult,26.29,Survived
+0,3,Female,18.0,0,1,14.4542,Woman,False,Cherbourg,False,False,2,Teenager,7.23,Did Not Survive
+0,3,Male,25.0,0,0,7.7417,Man,True,Queenstown,True,False,1,Adult,7.74,Did Not Survive
+0,3,Male,26.0,1,0,7.8542,Man,True,Southampton,False,False,2,Adult,3.93,Did Not Survive
+0,2,Male,39.0,0,0,26.0,Man,True,Southampton,True,False,1,Adult,26.0,Did Not Survive
+1,2,Female,45.0,0,0,13.5,Woman,False,Southampton,True,False,1,Adult,13.5,Survived
+1,1,Male,42.0,0,0,26.2875,Man,True,Southampton,True,False,1,Adult,26.29,Survived
+1,1,Female,22.0,0,0,151.55,Woman,False,Southampton,True,False,1,Adult,151.55,Survived
+1,1,Female,24.0,0,0,49.5042,Woman,False,Cherbourg,True,False,1,Adult,49.5,Survived
+0,1,Male,40.0,0,0,26.55,Man,True,Southampton,True,True,1,Adult,26.55,Did Not Survive
+1,1,Male,48.0,1,0,52.0,Man,True,Southampton,False,False,2,Adult,26.0,Survived
+0,3,Male,29.0,0,0,9.4833,Man,True,Southampton,True,False,1,Adult,9.48,Did Not Survive
+0,2,Male,52.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,3,Male,19.0,0,0,7.65,Man,True,Southampton,True,False,1,Teenager,7.65,Did Not Survive
+1,1,Female,38.0,0,0,227.525,Woman,False,Cherbourg,True,False,1,Adult,227.52,Survived
+1,2,Female,27.0,0,0,10.5,Woman,False,Southampton,True,False,1,Adult,10.5,Survived
+0,3,Male,25.0,0,0,15.5,Man,True,Queenstown,True,True,1,Adult,15.5,Did Not Survive
+0,3,Male,33.0,0,0,7.775,Man,True,Southampton,True,False,1,Adult,7.78,Did Not Survive
+1,2,Female,6.0,0,1,33.0,Child,False,Southampton,False,False,2,Child,16.5,Survived
+0,3,Male,17.0,1,0,7.0542,Man,True,Southampton,False,False,2,Teenager,3.53,Did Not Survive
+0,2,Male,34.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+0,2,Male,50.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+1,1,Male,27.0,1,0,53.1,Man,True,Southampton,False,False,2,Adult,26.55,Survived
+0,3,Male,20.0,0,0,8.6625,Man,True,Southampton,True,False,1,Adult,8.66,Did Not Survive
+1,2,Female,30.0,3,0,21.0,Woman,False,Southampton,False,False,4,Adult,5.25,Survived
+1,3,Female,21.5,0,0,7.7375,Woman,False,Queenstown,True,True,1,Adult,7.74,Survived
+0,2,Male,25.0,1,0,26.0,Man,True,Southampton,False,False,2,Adult,13.0,Did Not Survive
+0,3,Female,25.0,1,0,7.925,Woman,False,Southampton,False,False,2,Adult,3.96,Did Not Survive
+1,1,Female,29.0,0,0,211.3375,Woman,False,Southampton,True,False,1,Adult,211.34,Survived
+0,3,Male,11.0,0,0,18.7875,Child,False,Cherbourg,True,False,1,Child,18.79,Did Not Survive
+0,3,Male,28.5,0,0,16.1,Man,True,Southampton,True,False,1,Adult,16.1,Did Not Survive
+0,3,Female,48.0,1,3,34.375,Woman,False,Southampton,False,False,5,Adult,6.88,Did Not Survive
+1,1,Male,35.0,0,0,512.3292,Man,True,Cherbourg,True,False,1,Adult,512.33,Survived
+1,1,Male,40.0,0,0,30.0,Man,True,Southampton,True,True,1,Adult,30.0,Survived
+0,1,Male,36.0,1,0,78.85,Man,True,Southampton,False,False,2,Adult,39.42,Did Not Survive
+1,1,Female,21.0,2,2,262.375,Woman,False,Cherbourg,False,False,5,Adult,52.48,Survived
+0,3,Male,24.0,1,0,16.1,Man,True,Southampton,False,False,2,Adult,8.05,Did Not Survive
+1,3,Male,31.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Survived
+0,1,Male,70.0,1,1,71.0,Man,True,Southampton,False,False,3,Senior,23.67,Did Not Survive
+0,3,Male,16.0,1,1,20.25,Man,True,Southampton,False,False,3,Teenager,6.75,Did Not Survive
+1,2,Female,30.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+0,1,Male,19.0,1,0,53.1,Man,True,Southampton,False,False,2,Teenager,26.55,Did Not Survive
+0,3,Male,31.0,0,0,7.75,Man,True,Queenstown,True,False,1,Adult,7.75,Did Not Survive
+1,2,Female,4.0,1,1,23.0,Child,False,Southampton,False,False,3,Child,7.67,Survived
+1,3,Male,6.0,0,1,12.475,Child,False,Southampton,False,False,2,Child,6.24,Survived
+0,3,Male,33.0,0,0,9.5,Man,True,Southampton,True,False,1,Adult,9.5,Did Not Survive
+0,3,Male,23.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+1,2,Female,48.0,1,2,65.0,Woman,False,Southampton,False,False,4,Adult,16.25,Survived
+1,2,Male,0.67,1,1,14.5,Child,False,Southampton,False,False,3,Child,4.83,Survived
+0,3,Male,28.0,0,0,7.7958,Man,True,Southampton,True,False,1,Adult,7.8,Did Not Survive
+1,1,Female,33.0,0,0,86.5,Woman,False,Southampton,True,False,1,Adult,86.5,Survived
+0,3,Male,41.0,0,0,7.125,Man,True,Southampton,True,False,1,Adult,7.12,Did Not Survive
+1,3,Male,20.0,0,0,7.2292,Man,True,Cherbourg,True,False,1,Adult,7.23,Survived
+1,1,Female,36.0,1,2,120.0,Woman,False,Southampton,False,False,4,Adult,30.0,Survived
+0,3,Male,16.0,0,0,7.775,Man,True,Southampton,True,False,1,Teenager,7.78,Did Not Survive
+1,1,Female,51.0,1,0,77.9583,Woman,False,Southampton,False,False,2,Adult,38.98,Survived
+0,1,Male,40.0,0,0,39.6,Man,True,Cherbourg,True,True,1,Adult,39.6,Did Not Survive
+0,3,Female,30.5,0,0,7.75,Woman,False,Queenstown,True,False,1,Adult,7.75,Did Not Survive
+0,3,Male,25.0,1,0,24.15,Man,True,Queenstown,False,True,2,Adult,12.08,Did Not Survive
+0,3,Male,32.0,0,0,8.3625,Man,True,Southampton,True,False,1,Adult,8.36,Did Not Survive
+0,3,Male,24.0,0,0,9.5,Man,True,Southampton,True,False,1,Adult,9.5,Did Not Survive
+0,3,Male,48.0,0,0,7.8542,Man,True,Southampton,True,False,1,Adult,7.85,Did Not Survive
+0,2,Female,57.0,0,0,10.5,Woman,False,Southampton,True,False,1,Adult,10.5,Did Not Survive
+1,2,Female,54.0,1,3,23.0,Woman,False,Southampton,False,False,5,Adult,4.6,Survived
+0,3,Male,18.0,0,0,7.75,Man,True,Southampton,True,False,1,Teenager,7.75,Did Not Survive
+1,3,Female,5.0,0,0,12.475,Child,False,Southampton,True,False,1,Child,12.48,Survived
+0,3,Male,25.0,0,0,7.7375,Man,True,Queenstown,True,True,1,Adult,7.74,Did Not Survive
+1,1,Female,43.0,0,1,211.3375,Woman,False,Southampton,False,False,2,Adult,105.67,Survived
+1,3,Female,13.0,0,0,7.2292,Child,False,Cherbourg,True,False,1,Teenager,7.23,Survived
+1,1,Female,17.0,1,0,57.0,Woman,False,Southampton,False,False,2,Teenager,28.5,Survived
+0,1,Male,29.0,0,0,30.0,Man,True,Southampton,True,False,1,Adult,30.0,Did Not Survive
+0,3,Male,25.0,1,2,23.45,Man,True,Southampton,False,True,4,Adult,5.86,Did Not Survive
+0,3,Male,25.0,0,0,7.05,Man,True,Southampton,True,False,1,Adult,7.05,Did Not Survive
+0,3,Male,25.0,0,0,7.25,Man,True,Southampton,True,False,1,Adult,7.25,Did Not Survive
+1,3,Female,18.0,0,0,7.4958,Woman,False,Southampton,True,False,1,Teenager,7.5,Survived
+0,3,Male,8.0,4,1,29.125,Child,False,Queenstown,False,False,6,Child,4.85,Did Not Survive
+1,3,Male,1.0,1,2,20.575,Child,False,Southampton,False,False,4,Child,5.14,Survived
+0,1,Male,46.0,0,0,79.2,Man,True,Cherbourg,True,False,1,Adult,79.2,Did Not Survive
+0,2,Male,16.0,0,0,26.0,Man,True,Southampton,True,False,1,Teenager,26.0,Did Not Survive
+0,1,Male,40.0,0,0,30.6958,Man,True,Cherbourg,True,True,1,Adult,30.7,Did Not Survive
+0,3,Male,25.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+0,2,Male,39.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+1,1,Female,49.0,0,0,25.9292,Woman,False,Southampton,True,False,1,Adult,25.93,Survived
+1,3,Female,31.0,0,0,8.6833,Woman,False,Southampton,True,False,1,Adult,8.68,Survived
+0,3,Male,30.0,0,0,7.2292,Man,True,Cherbourg,True,False,1,Adult,7.23,Did Not Survive
+0,3,Female,30.0,1,1,24.15,Woman,False,Southampton,False,False,3,Adult,8.05,Did Not Survive
+1,2,Female,31.0,1,1,26.25,Woman,False,Southampton,False,False,3,Adult,8.75,Survived
+1,1,Male,11.0,1,2,120.0,Child,False,Southampton,False,False,4,Child,30.0,Survived
+1,3,Male,0.42,0,1,8.5167,Child,False,Cherbourg,False,False,2,Child,4.26,Survived
+1,3,Male,27.0,0,0,6.975,Man,True,Southampton,True,False,1,Adult,6.98,Survived
+0,3,Male,31.0,0,0,7.775,Man,True,Southampton,True,False,1,Adult,7.78,Did Not Survive
+0,1,Male,39.0,0,0,62.66875,Man,True,Southampton,True,False,1,Adult,62.67,Did Not Survive
+0,3,Female,18.0,0,0,7.775,Woman,False,Southampton,True,False,1,Teenager,7.78,Did Not Survive
+1,1,Female,33.0,1,0,53.1,Woman,False,Southampton,False,False,2,Adult,26.55,Survived
+0,3,Male,26.0,0,0,7.8875,Man,True,Southampton,True,False,1,Adult,7.89,Did Not Survive
+0,3,Male,39.0,0,0,24.15,Man,True,Southampton,True,False,1,Adult,24.15,Did Not Survive
+0,2,Male,35.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Female,6.0,4,2,31.275,Child,False,Southampton,False,False,7,Child,4.47,Did Not Survive
+0,3,Male,30.5,0,0,8.05,Man,True,Southampton,True,False,1,Adult,8.05,Did Not Survive
+0,3,Female,23.0,0,0,7.925,Woman,False,Southampton,True,False,1,Adult,7.92,Did Not Survive
+0,2,Male,31.0,1,1,37.0042,Man,True,Cherbourg,False,False,3,Adult,12.33,Did Not Survive
+0,3,Male,43.0,0,0,6.45,Man,True,Southampton,True,False,1,Adult,6.45,Did Not Survive
+0,3,Male,10.0,3,2,27.9,Child,False,Southampton,False,False,6,Child,4.65,Did Not Survive
+1,1,Female,52.0,1,1,93.5,Woman,False,Southampton,False,False,3,Adult,31.17,Survived
+1,3,Male,27.0,0,0,8.6625,Man,True,Southampton,True,False,1,Adult,8.66,Survived
+0,1,Male,38.0,0,0,62.66875,Man,True,Southampton,True,False,1,Adult,62.67,Did Not Survive
+1,3,Female,27.0,0,1,12.475,Woman,False,Southampton,False,False,2,Adult,6.24,Survived
+0,3,Male,2.0,4,1,39.6875,Child,False,Southampton,False,False,6,Child,6.61,Did Not Survive
+0,3,Male,25.0,0,0,6.95,Man,True,Queenstown,True,True,1,Adult,6.95,Did Not Survive
+0,3,Male,25.0,0,0,56.4958,Man,True,Southampton,True,True,1,Adult,56.5,Did Not Survive
+1,2,Male,1.0,0,2,37.0042,Child,False,Cherbourg,False,False,3,Child,12.33,Survived
+1,3,Male,25.0,0,0,7.75,Man,True,Queenstown,True,True,1,Adult,7.75,Survived
+1,1,Female,62.0,0,0,80.0,Woman,False,Southampton,True,False,1,Senior,80.0,Survived
+1,3,Female,15.0,1,0,14.4542,Child,False,Cherbourg,False,False,2,Teenager,7.23,Survived
+1,2,Male,0.83,1,1,18.75,Child,False,Southampton,False,False,3,Child,6.25,Survived
+0,3,Male,23.0,0,0,7.8542,Man,True,Southampton,True,False,1,Adult,7.85,Did Not Survive
+0,3,Male,18.0,0,0,8.3,Man,True,Southampton,True,False,1,Teenager,8.3,Did Not Survive
+1,1,Female,39.0,1,1,83.1583,Woman,False,Cherbourg,False,False,3,Adult,27.72,Survived
+0,3,Male,21.0,0,0,8.6625,Man,True,Southampton,True,False,1,Adult,8.66,Did Not Survive
+1,1,Male,40.0,0,0,29.7,Man,True,Cherbourg,True,True,1,Adult,29.7,Survived
+0,3,Male,20.0,0,0,7.925,Man,True,Southampton,True,False,1,Adult,7.92,Did Not Survive
+0,2,Male,16.0,0,0,10.5,Man,True,Southampton,True,False,1,Teenager,10.5,Did Not Survive
+1,1,Female,30.0,0,0,31.0,Woman,False,Cherbourg,True,False,1,Adult,31.0,Survived
+0,3,Male,34.5,0,0,6.4375,Man,True,Cherbourg,True,False,1,Adult,6.44,Did Not Survive
+0,3,Male,42.0,0,0,7.55,Man,True,Southampton,True,False,1,Adult,7.55,Did Not Survive
+0,3,Male,35.0,0,0,7.8958,Man,True,Cherbourg,True,False,1,Adult,7.9,Did Not Survive
+0,2,Male,28.0,0,1,33.0,Man,True,Southampton,False,False,2,Adult,16.5,Did Not Survive
+1,1,Female,35.0,1,0,89.1042,Woman,False,Cherbourg,False,True,2,Adult,44.55,Survived
+0,3,Male,4.0,4,2,31.275,Child,False,Southampton,False,False,7,Child,4.47,Did Not Survive
+0,3,Male,74.0,0,0,7.775,Man,True,Southampton,True,False,1,Senior,7.78,Did Not Survive
+0,3,Female,9.0,1,1,15.2458,Child,False,Cherbourg,False,False,3,Child,5.08,Did Not Survive
+1,1,Female,16.0,0,1,39.4,Woman,False,Southampton,False,False,2,Teenager,19.7,Survived
+0,2,Female,44.0,1,0,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Did Not Survive
+1,3,Female,18.0,0,1,9.35,Woman,False,Southampton,False,False,2,Teenager,4.68,Survived
+1,1,Female,45.0,1,1,164.8667,Woman,False,Southampton,False,False,3,Adult,54.96,Survived
+1,1,Male,51.0,0,0,26.55,Man,True,Southampton,True,False,1,Adult,26.55,Survived
+1,3,Female,24.0,0,3,19.2583,Woman,False,Cherbourg,False,False,4,Adult,4.81,Survived
+0,3,Male,41.0,2,0,14.1083,Man,True,Southampton,False,False,3,Adult,4.7,Did Not Survive
+0,2,Male,21.0,1,0,11.5,Man,True,Southampton,False,False,2,Adult,5.75,Did Not Survive
+1,1,Female,48.0,0,0,25.9292,Woman,False,Southampton,True,False,1,Adult,25.93,Survived
+0,2,Male,24.0,0,0,13.0,Man,True,Southampton,True,False,1,Adult,13.0,Did Not Survive
+1,2,Female,42.0,0,0,13.0,Woman,False,Southampton,True,False,1,Adult,13.0,Survived
+1,2,Female,27.0,1,0,13.8583,Woman,False,Cherbourg,False,False,2,Adult,6.93,Survived
+0,1,Male,31.0,0,0,50.4958,Man,True,Southampton,True,False,1,Adult,50.5,Did Not Survive
+0,3,Male,25.0,0,0,9.5,Man,True,Southampton,True,True,1,Adult,9.5,Did Not Survive
+1,3,Male,4.0,1,1,11.1333,Child,False,Southampton,False,False,3,Child,3.71,Survived
+1,1,Female,47.0,1,1,52.5542,Woman,False,Southampton,False,False,3,Adult,17.52,Survived
+0,1,Male,33.0,0,0,5.0,Man,True,Southampton,True,False,1,Adult,5.0,Did Not Survive
+0,3,Male,47.0,0,0,9.0,Man,True,Southampton,True,False,1,Adult,9.0,Did Not Survive
+1,2,Female,28.0,1,0,24.0,Woman,False,Cherbourg,False,False,2,Adult,12.0,Survived
+1,3,Female,15.0,0,0,7.225,Child,False,Cherbourg,True,False,1,Teenager,7.22,Survived
+0,3,Male,20.0,0,0,9.8458,Man,True,Southampton,True,False,1,Adult,9.85,Did Not Survive
+1,1,Female,56.0,0,1,83.1583,Woman,False,Cherbourg,False,False,2,Adult,41.58,Survived
+1,2,Female,25.0,0,1,26.0,Woman,False,Southampton,False,False,2,Adult,13.0,Survived
+0,3,Male,33.0,0,0,7.8958,Man,True,Southampton,True,False,1,Adult,7.9,Did Not Survive
+0,3,Female,22.0,0,0,10.5167,Woman,False,Southampton,True,False,1,Adult,10.52,Did Not Survive
+0,2,Male,28.0,0,0,10.5,Man,True,Southampton,True,False,1,Adult,10.5,Did Not Survive
+0,3,Female,39.0,0,5,29.125,Woman,False,Queenstown,False,False,6,Adult,4.85,Did Not Survive
+1,1,Female,19.0,0,0,30.0,Woman,False,Southampton,True,False,1,Teenager,30.0,Survived
+0,3,Female,21.5,1,2,23.45,Woman,False,Southampton,False,True,4,Adult,5.86,Did Not Survive
+1,1,Male,26.0,0,0,30.0,Man,True,Cherbourg,True,False,1,Adult,30.0,Survived
+0,3,Male,32.0,0,0,7.75,Man,True,Queenstown,True,False,1,Adult,7.75,Did Not Survive
